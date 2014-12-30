@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+corpus
+microcorpus
+test_set
+train_set
