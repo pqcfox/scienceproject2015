@@ -4,7 +4,7 @@ import shutil
 
 # Split corpus into training and test sets
 
-corpus = "corpus"
+corpus = "microcorpus"
 test_set = "test_set"
 train_set = "train_set"
 train_size = 15

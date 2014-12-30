@@ -1,6 +1,0 @@
-Importing modules... 3e-06
-Creating new model... 5.372056
-Traceback (most recent call last):
-  File "scripts/test.py", line 31, in <module>
-    model = create_model.create_model(train_set, num_protos, suppress_gui=True, params=pickle.load(open("params.p", "rb")))
-NameError: name 'create_model' is not defined

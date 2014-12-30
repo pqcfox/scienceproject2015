@@ -7,7 +7,7 @@ sys.path.append('scripts/glimpse_scripts')
 
 import copy
 import glimpse_scripts.create_model as create_model
-import glimpse_scripts.run_model as create_model
+import glimpse_scripts.run_model as run_model 
 import itertools
 import os
 import pickle
