@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
 corpus
-microcorpus
+tinycorpus
+data
+tinydata
 test_set
 train_set

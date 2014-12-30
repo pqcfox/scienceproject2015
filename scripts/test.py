@@ -17,10 +17,10 @@ import re
 import shutil
 import string
 
-corpus = "corpus"
+corpus = "tinycorpus"
 test_set = "test_set"
 train_set = "train_set"
-data_folder = "data"
+data_folder = "tinydata"
 classes = sorted([ os.path.join(corpus, f) for f in os.listdir(corpus) if os.path.isdir(os.path.join(corpus, f)) ])
 
 # Move into a work folder to minimize clutter and latency in main folder (i.e. for `ls`)
@@ -126,7 +126,7 @@ all_images = sorted(list(set([ v[0] for v in votes ])))
 results = []
 
 # Count up final votes from each svm output.
-
+'''
 for image in all_images:
     print "Tallying votes for {0}... {1}".format(image, time.clock() - start)
     image_votes = [ v[2] for v in votes if v[0] == image ]  
@@ -134,6 +134,23 @@ for image in all_images:
     image_counts = [ image_votes.count(k) for k in image_votes ]
     image_predicted = random.choice(list(set([ v for v in image_votes if image_counts[image_votes.index(v)] == max(image_counts) ])))
     results.append([image, image_class, image_predicted]) 
+'''
+
+class_by_image = [ None for _  in all_images ]
+votes_by_image = [ [] for _  in all_images ]
+for v in votes:
+    print "Analyzing vote for {0}... {1}".format(v[0], time.clock() - start)
+    votes_by_image[all_images.index(v[0])].append(v[2]) 
+    class_by_image[all_images.index(v[0])] = v[1]
+
+for image in all_images:
+    print "Tallying votes for {0}... {1}".format(image, time.clock() - start)
+    image_class = class_by_image[all_images.index(image)]
+    image_votes = votes_by_image[all_images.index(image)]
+    image_counts = [ image_votes.count(k) for k in image_votes ]
+    image_predicted = random.choice(list(set([v for v in image_votes if image_counts[image_votes.index(v)] == max(image_counts) ])))
+    results.append([image, image_class, image_predicted])
+
 
 # Calculate overall accuracy.
 
