@@ -3,11 +3,11 @@ import time
 start = time.clock()
 print "Importing modules... {0}".format(time.clock() - start)
 
-sys.path.append('../')
+sys.path.append('scripts/glimpse_scripts')
 
 import copy
-import glimpse_scripts.create_model
-import glimpse_scripts.run_model
+import glimpse_scripts.create_model as create_model
+import glimpse_scripts.run_model as create_model
 import itertools
 import os
 import pickle
@@ -17,7 +17,7 @@ import re
 import shutil
 import string
 
-corpus = "../microcorpus"
+corpus = "microcorpus"
 test_set = "test_set"
 train_set = "train_set"
 classes = sorted([ os.path.join(corpus, f) for f in os.listdir(corpus) if os.path.isdir(os.path.join(corpus, f)) ])
