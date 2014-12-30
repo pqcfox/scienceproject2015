@@ -4,9 +4,9 @@ import shutil
 
 # Split corpus into training and test sets
 
-corpus = "microcorpus"
-test_set = "test_set"
-train_set = "train_set"
+corpus = "corpus"
+test_set = "data/test_set"
+train_set = "data/train_set"
 train_size = 15
 
 print "Removing old test/train sets..."

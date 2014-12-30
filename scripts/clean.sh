@@ -1,2 +1,3 @@
-cd '/stash/mm-group/ct101hmax/'
+cd '/stash/mm-group/ct101hmax/data'
 rm -rf *.predictions *.test *.train *.svm features features-paths classes.p matrix.p results.txt logfile
+cd '/stash/mm-group/ct101hmax'

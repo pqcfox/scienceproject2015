@@ -17,10 +17,17 @@ import re
 import shutil
 import string
 
-corpus = "microcorpus"
+corpus = "corpus"
 test_set = "test_set"
 train_set = "train_set"
+data_folder = "data"
 classes = sorted([ os.path.join(corpus, f) for f in os.listdir(corpus) if os.path.isdir(os.path.join(corpus, f)) ])
+
+# Move into a work folder to minimize clutter and latency in main folder (i.e. for `ls`)
+
+print "Moving into {0}... {1}".format(data_folder, time.clock() - start)
+
+os.chdir(data_folder)
 
 # Use create_model.py to create an HMAX model from the training set 
 
@@ -76,7 +83,7 @@ for pair in pairs:
     
     open(pair_train, 'w').write(''.join(pair_train_lines))
     print "Training SVM using {0}... {1}".format(pair_train, time.clock() - start)
-    os.system('../svm_light/svm_learn -v 0 {0}.train {0}.svm'.format('-'.join(pair)))
+    os.system('/stash/mm-group/svm_light/svm_learn -v 0 {0}.train {0}.svm'.format('-'.join(pair)))
 
 svms = [ f for f in os.listdir('.') if '.svm' in f ]
 
@@ -90,7 +97,7 @@ for c in [ os.path.basename(k) for k in classes ]:
         pairname = svm.split('.')[0]
         pred = '{0}-{1}.predictions'.format(c, pairname) 
         print "Testing {0} using {1}... {2}".format(c, svm, time.clock() - start)
-        os.system('../svm_light/svm_classify -v 0 {0} {1} {2}'.format(test, svm, pred))
+        os.system('/stash/mm-group/svm_light/svm_classify -v 0 {0} {1} {2}'.format(test, svm, pred))
 
 # Accumulate predictions into a list.
 
