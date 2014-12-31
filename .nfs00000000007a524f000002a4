@@ -1,0 +1,28 @@
+Importing modules... 3e-06
+Moving into tinydata... 4.66938
+Creating new model... 4.669477
+Calculating C2 activations... 4.784738
+Computing activations...
+Computing activations...
+Training SVM using barrel-pagoda.train... 4.963068
+Training SVM using barrel-yin_yang.train... 4.965203
+Training SVM using pagoda-yin_yang.train... 4.968157
+Classifying images...
+Testing barrel using pagoda-yin_yang.svm... 4.970729
+Testing barrel using barrel-pagoda.svm... 4.972767
+Testing barrel using barrel-yin_yang.svm... 4.974939
+Testing pagoda using pagoda-yin_yang.svm... 4.977146
+Testing pagoda using barrel-pagoda.svm... 4.979337
+Testing pagoda using barrel-yin_yang.svm... 4.981397
+Testing yin_yang using pagoda-yin_yang.svm... 4.982465
+Testing yin_yang using barrel-pagoda.svm... 4.983504
+Testing yin_yang using barrel-yin_yang.svm... 4.984569
+Accumulating results for barrel... 4.985894
+Accumulating results for pagoda... 4.987652
+Accumulating results for yin_yang... 4.988683
+Calculating accuracy... 4.989533
+Formatting output... 4.989563
+Generating confusion matrix... 4.99004
+Done. Results in ./results.txt. Confusion matrix in ./matrix.p. Class names in ./classes.p. Runtime: 4.990645
+Accuracy is 86.667%.
+Overall time taken: 9.20714092255
