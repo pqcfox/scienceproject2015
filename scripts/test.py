@@ -1,10 +1,12 @@
 import sys
 import time
 start = time.clock()
+start_realtime = time.time()
 print "Importing modules... {0}".format(time.clock() - start)
 
 sys.path.append('scripts/glimpse_scripts')
 
+import collections
 import copy
 import glimpse_scripts.create_model as create_model
 import glimpse_scripts.run_model as run_model 
@@ -28,7 +30,7 @@ classes = sorted([ os.path.join(corpus, f) for f in os.listdir(corpus) if os.pat
 print "Moving into {0}... {1}".format(data_folder, time.clock() - start)
 
 os.chdir(data_folder)
-
+'''
 # Use create_model.py to create an HMAX model from the training set 
 
 print "Creating new model... {0}".format(time.clock() - start)
@@ -98,44 +100,54 @@ for c in [ os.path.basename(k) for k in classes ]:
         pred = '{0}-{1}.predictions'.format(c, pairname) 
         print "Testing {0} using {1}... {2}".format(c, svm, time.clock() - start)
         os.system('/stash/mm-group/svm_light/svm_classify -v 0 {0} {1} {2}'.format(test, svm, pred))
-
+'''
 # Accumulate predictions into a list.
 
 preds = [ f for f in os.listdir('.') if '.predictions' in f ]
 votes = []
+results = []
 
-for c in [ os.path.basename(k) for k in classes ] :
+for c in [ os.path.basename(k) for k in classes ]:
     class_preds = [ p for p in preds if p.split('-')[0] == c ]
     class_images = '{0}.names.test'.format(c)
     class_images_lines = open(class_images, 'r').read().splitlines()
     print "Accumulating results for {0}... {1}".format(c, time.clock() - start)
+    predictions = [ collections.Counter() for _ in class_images_lines ]
     for n in range(len(class_preds)):
         pred = class_preds[n] 
         class_pred_lines = open(pred, 'r').read().splitlines()
         for line in range(len(class_pred_lines)):
             value = float(class_pred_lines[line])
             pred_classes = re.findall(r'.*-(.*)-(.*)\.predictions', pred)[0]
+            print pred
+            print pred_classes
             if value > 0:
                 pred_class = pred_classes[0]
+                print "POSITIVE {0}".format(pred_classes[0])
             else:
                 pred_class = pred_classes[1]
+                print "NEGATIVE {0}".format(pred_classes[1])
                 
-            votes.append([class_images_lines[line], c, pred_class])
+            predictions[line].update([pred_class])
 
-all_images = sorted(list(set([ v[0] for v in votes ])))
-results = []
+    for n in range(len(predictions)):
+        counter = predictions[n]
+        print counter
+        highest_freq = counter.most_common(1)[0][1]
+        print highest_freq
+        highest_classes = [ el for el in list(counter) if counter[el] == highest_freq ] 
+        print highest_classes
+        chosen_class = random.choice(list(set(highest_classes)))
+        results.append([class_images_lines[n], c, chosen_class])
+
+print results
+
+#all_images = sorted(list(set([ v[0] for v in votes ])))
+#results = []
 
 # Count up final votes from each svm output.
-'''
-for image in all_images:
-    print "Tallying votes for {0}... {1}".format(image, time.clock() - start)
-    image_votes = [ v[2] for v in votes if v[0] == image ]  
-    image_class = [ v[1] for v in votes if v[0] == image ][0]
-    image_counts = [ image_votes.count(k) for k in image_votes ]
-    image_predicted = random.choice(list(set([ v for v in image_votes if image_counts[image_votes.index(v)] == max(image_counts) ])))
-    results.append([image, image_class, image_predicted]) 
-'''
 
+'''
 class_by_image = [ None for _  in all_images ]
 votes_by_image = [ [] for _  in all_images ]
 for v in votes:
@@ -150,7 +162,7 @@ for image in all_images:
     image_counts = [ image_votes.count(k) for k in image_votes ]
     image_predicted = random.choice(list(set([v for v in image_votes if image_counts[image_votes.index(v)] == max(image_counts) ])))
     results.append([image, image_class, image_predicted])
-
+'''
 
 # Calculate overall accuracy.
 
@@ -212,3 +224,4 @@ pickle.dump([ os.path.basename(c) for c in classes ], open("classes.p", "wb"))
 
 print "Done. Results in ./results.txt. Confusion matrix in ./matrix.p. Class names in ./classes.p. Runtime: {0}".format(time.clock() - start)
 print "Accuracy is {0:.3f}%.".format(accuracy*100)
+print "Overall time taken: {0}".format(time.time() - start_realtime)

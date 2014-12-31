@@ -7,7 +7,7 @@ import shutil
 corpus = "tinycorpus"
 test_set = "tinydata/test_set"
 train_set = "tinydata/train_set"
-train_size = 15
+train_size = 5
 
 print "Removing old test/train sets..."
  

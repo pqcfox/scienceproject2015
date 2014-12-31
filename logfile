@@ -1,1096 +1,192 @@
-Importing modules... 1e-06
-Moving into tinydata... 5.650148
-Creating new model... 5.650245
-Calculating C2 activations... 5.744123
-Computing activations...
-Computing activations...
-Training SVM using beaver-euphonium.train... 6.094867
-Training SVM using beaver-lamp.train... 6.098719
-Training SVM using beaver-okapi.train... 6.102048
-Training SVM using euphonium-lamp.train... 6.103448
-Training SVM using euphonium-okapi.train... 6.104734
-Training SVM using lamp-okapi.train... 6.106033
-Classifying images...
-Testing beaver using beaver-euphonium.svm... 6.107499
-Testing beaver using beaver-okapi.svm... 6.108532
-Testing beaver using euphonium-okapi.svm... 6.109535
-Testing beaver using euphonium-lamp.svm... 6.110531
-Testing beaver using lamp-okapi.svm... 6.111456
-Testing beaver using beaver-lamp.svm... 6.112503
-Testing euphonium using beaver-euphonium.svm... 6.11362
-Testing euphonium using beaver-okapi.svm... 6.114752
-Testing euphonium using euphonium-okapi.svm... 6.116066
-Testing euphonium using euphonium-lamp.svm... 6.11711
-Testing euphonium using lamp-okapi.svm... 6.118919
-Testing euphonium using beaver-lamp.svm... 6.121216
-Testing lamp using beaver-euphonium.svm... 6.122269
-Testing lamp using beaver-okapi.svm... 6.124214
-Testing lamp using euphonium-okapi.svm... 6.125785
-Testing lamp using euphonium-lamp.svm... 6.126786
-Testing lamp using lamp-okapi.svm... 6.127922
-Testing lamp using beaver-lamp.svm... 6.128899
-Testing okapi using beaver-euphonium.svm... 6.130078
-Testing okapi using beaver-okapi.svm... 6.131096
-Testing okapi using euphonium-okapi.svm... 6.132197
-Testing okapi using euphonium-lamp.svm... 6.13323
-Testing okapi using lamp-okapi.svm... 6.134233
-Testing okapi using beaver-lamp.svm... 6.135286
-Accumulating results for beaver... 6.136619
-Accumulating results for euphonium... 6.139184
-Accumulating results for lamp... 6.14166
-Accumulating results for okapi... 6.143973
-Analyzing vote for test_set/beaver/image_0001.jpg... 6.145795
-Analyzing vote for test_set/beaver/image_0002.jpg... 6.145817
-Analyzing vote for test_set/beaver/image_0004.jpg... 6.145825
-Analyzing vote for test_set/beaver/image_0005.jpg... 6.145832
-Analyzing vote for test_set/beaver/image_0007.jpg... 6.14584
-Analyzing vote for test_set/beaver/image_0008.jpg... 6.145847
-Analyzing vote for test_set/beaver/image_0012.jpg... 6.145854
-Analyzing vote for test_set/beaver/image_0016.jpg... 6.145861
-Analyzing vote for test_set/beaver/image_0017.jpg... 6.145869
-Analyzing vote for test_set/beaver/image_0018.jpg... 6.145877
-Analyzing vote for test_set/beaver/image_0019.jpg... 6.145885
-Analyzing vote for test_set/beaver/image_0020.jpg... 6.145892
-Analyzing vote for test_set/beaver/image_0021.jpg... 6.1459
-Analyzing vote for test_set/beaver/image_0022.jpg... 6.145911
-Analyzing vote for test_set/beaver/image_0023.jpg... 6.145919
-Analyzing vote for test_set/beaver/image_0024.jpg... 6.145927
-Analyzing vote for test_set/beaver/image_0025.jpg... 6.145936
-Analyzing vote for test_set/beaver/image_0027.jpg... 6.145944
-Analyzing vote for test_set/beaver/image_0028.jpg... 6.145953
-Analyzing vote for test_set/beaver/image_0029.jpg... 6.145961
-Analyzing vote for test_set/beaver/image_0032.jpg... 6.14597
-Analyzing vote for test_set/beaver/image_0033.jpg... 6.145978
-Analyzing vote for test_set/beaver/image_0034.jpg... 6.145988
-Analyzing vote for test_set/beaver/image_0037.jpg... 6.145996
-Analyzing vote for test_set/beaver/image_0039.jpg... 6.146005
-Analyzing vote for test_set/beaver/image_0040.jpg... 6.146014
-Analyzing vote for test_set/beaver/image_0041.jpg... 6.146024
-Analyzing vote for test_set/beaver/image_0043.jpg... 6.146033
-Analyzing vote for test_set/beaver/image_0044.jpg... 6.146042
-Analyzing vote for test_set/beaver/image_0045.jpg... 6.146052
-Analyzing vote for test_set/beaver/image_0046.jpg... 6.146062
-Analyzing vote for test_set/beaver/image_0001.jpg... 6.146071
-Analyzing vote for test_set/beaver/image_0002.jpg... 6.146078
-Analyzing vote for test_set/beaver/image_0004.jpg... 6.146085
-Analyzing vote for test_set/beaver/image_0005.jpg... 6.146091
-Analyzing vote for test_set/beaver/image_0007.jpg... 6.146098
-Analyzing vote for test_set/beaver/image_0008.jpg... 6.146109
-Analyzing vote for test_set/beaver/image_0012.jpg... 6.146117
-Analyzing vote for test_set/beaver/image_0016.jpg... 6.146124
-Analyzing vote for test_set/beaver/image_0017.jpg... 6.146131
-Analyzing vote for test_set/beaver/image_0018.jpg... 6.146138
-Analyzing vote for test_set/beaver/image_0019.jpg... 6.146146
-Analyzing vote for test_set/beaver/image_0020.jpg... 6.146153
-Analyzing vote for test_set/beaver/image_0021.jpg... 6.146161
-Analyzing vote for test_set/beaver/image_0022.jpg... 6.146169
-Analyzing vote for test_set/beaver/image_0023.jpg... 6.146176
-Analyzing vote for test_set/beaver/image_0024.jpg... 6.146184
-Analyzing vote for test_set/beaver/image_0025.jpg... 6.146192
-Analyzing vote for test_set/beaver/image_0027.jpg... 6.1462
-Analyzing vote for test_set/beaver/image_0028.jpg... 6.146209
-Analyzing vote for test_set/beaver/image_0029.jpg... 6.146217
-Analyzing vote for test_set/beaver/image_0032.jpg... 6.146226
-Analyzing vote for test_set/beaver/image_0033.jpg... 6.146245
-Analyzing vote for test_set/beaver/image_0034.jpg... 6.146261
-Analyzing vote for test_set/beaver/image_0037.jpg... 6.146271
-Analyzing vote for test_set/beaver/image_0039.jpg... 6.14628
-Analyzing vote for test_set/beaver/image_0040.jpg... 6.146289
-Analyzing vote for test_set/beaver/image_0041.jpg... 6.146298
-Analyzing vote for test_set/beaver/image_0043.jpg... 6.146307
-Analyzing vote for test_set/beaver/image_0044.jpg... 6.146317
-Analyzing vote for test_set/beaver/image_0045.jpg... 6.146326
-Analyzing vote for test_set/beaver/image_0046.jpg... 6.146335
-Analyzing vote for test_set/beaver/image_0001.jpg... 6.146345
-Analyzing vote for test_set/beaver/image_0002.jpg... 6.146351
-Analyzing vote for test_set/beaver/image_0004.jpg... 6.146358
-Analyzing vote for test_set/beaver/image_0005.jpg... 6.146365
-Analyzing vote for test_set/beaver/image_0007.jpg... 6.146372
-Analyzing vote for test_set/beaver/image_0008.jpg... 6.146378
-Analyzing vote for test_set/beaver/image_0012.jpg... 6.146385
-Analyzing vote for test_set/beaver/image_0016.jpg... 6.146392
-Analyzing vote for test_set/beaver/image_0017.jpg... 6.146399
-Analyzing vote for test_set/beaver/image_0018.jpg... 6.146407
-Analyzing vote for test_set/beaver/image_0019.jpg... 6.146414
-Analyzing vote for test_set/beaver/image_0020.jpg... 6.146422
-Analyzing vote for test_set/beaver/image_0021.jpg... 6.146429
-Analyzing vote for test_set/beaver/image_0022.jpg... 6.146437
-Analyzing vote for test_set/beaver/image_0023.jpg... 6.146445
-Analyzing vote for test_set/beaver/image_0024.jpg... 6.146453
-Analyzing vote for test_set/beaver/image_0025.jpg... 6.146461
-Analyzing vote for test_set/beaver/image_0027.jpg... 6.146469
-Analyzing vote for test_set/beaver/image_0028.jpg... 6.146477
-Analyzing vote for test_set/beaver/image_0029.jpg... 6.146486
-Analyzing vote for test_set/beaver/image_0032.jpg... 6.146494
-Analyzing vote for test_set/beaver/image_0033.jpg... 6.146503
-Analyzing vote for test_set/beaver/image_0034.jpg... 6.146512
-Analyzing vote for test_set/beaver/image_0037.jpg... 6.146521
-Analyzing vote for test_set/beaver/image_0039.jpg... 6.14653
-Analyzing vote for test_set/beaver/image_0040.jpg... 6.146539
-Analyzing vote for test_set/beaver/image_0041.jpg... 6.146548
-Analyzing vote for test_set/beaver/image_0043.jpg... 6.146557
-Analyzing vote for test_set/beaver/image_0044.jpg... 6.146566
-Analyzing vote for test_set/beaver/image_0045.jpg... 6.146576
-Analyzing vote for test_set/beaver/image_0046.jpg... 6.146585
-Analyzing vote for test_set/beaver/image_0001.jpg... 6.146595
-Analyzing vote for test_set/beaver/image_0002.jpg... 6.146601
-Analyzing vote for test_set/beaver/image_0004.jpg... 6.146608
-Analyzing vote for test_set/beaver/image_0005.jpg... 6.146614
-Analyzing vote for test_set/beaver/image_0007.jpg... 6.146621
-Analyzing vote for test_set/beaver/image_0008.jpg... 6.146628
-Analyzing vote for test_set/beaver/image_0012.jpg... 6.146635
-Analyzing vote for test_set/beaver/image_0016.jpg... 6.146642
-Analyzing vote for test_set/beaver/image_0017.jpg... 6.146649
-Analyzing vote for test_set/beaver/image_0018.jpg... 6.14666
-Analyzing vote for test_set/beaver/image_0019.jpg... 6.146668
-Analyzing vote for test_set/beaver/image_0020.jpg... 6.146675
-Analyzing vote for test_set/beaver/image_0021.jpg... 6.146683
-Analyzing vote for test_set/beaver/image_0022.jpg... 6.146691
-Analyzing vote for test_set/beaver/image_0023.jpg... 6.146698
-Analyzing vote for test_set/beaver/image_0024.jpg... 6.146706
-Analyzing vote for test_set/beaver/image_0025.jpg... 6.146723
-Analyzing vote for test_set/beaver/image_0027.jpg... 6.146738
-Analyzing vote for test_set/beaver/image_0028.jpg... 6.146747
-Analyzing vote for test_set/beaver/image_0029.jpg... 6.146756
-Analyzing vote for test_set/beaver/image_0032.jpg... 6.146764
-Analyzing vote for test_set/beaver/image_0033.jpg... 6.146773
-Analyzing vote for test_set/beaver/image_0034.jpg... 6.146782
-Analyzing vote for test_set/beaver/image_0037.jpg... 6.146791
-Analyzing vote for test_set/beaver/image_0039.jpg... 6.1468
-Analyzing vote for test_set/beaver/image_0040.jpg... 6.146809
-Analyzing vote for test_set/beaver/image_0041.jpg... 6.146818
-Analyzing vote for test_set/beaver/image_0043.jpg... 6.146827
-Analyzing vote for test_set/beaver/image_0044.jpg... 6.146836
-Analyzing vote for test_set/beaver/image_0045.jpg... 6.146846
-Analyzing vote for test_set/beaver/image_0046.jpg... 6.146855
-Analyzing vote for test_set/beaver/image_0001.jpg... 6.146865
-Analyzing vote for test_set/beaver/image_0002.jpg... 6.146872
-Analyzing vote for test_set/beaver/image_0004.jpg... 6.146879
-Analyzing vote for test_set/beaver/image_0005.jpg... 6.146886
-Analyzing vote for test_set/beaver/image_0007.jpg... 6.146893
-Analyzing vote for test_set/beaver/image_0008.jpg... 6.1469
-Analyzing vote for test_set/beaver/image_0012.jpg... 6.146907
-Analyzing vote for test_set/beaver/image_0016.jpg... 6.146915
-Analyzing vote for test_set/beaver/image_0017.jpg... 6.146922
-Analyzing vote for test_set/beaver/image_0018.jpg... 6.146929
-Analyzing vote for test_set/beaver/image_0019.jpg... 6.146937
-Analyzing vote for test_set/beaver/image_0020.jpg... 6.146945
-Analyzing vote for test_set/beaver/image_0021.jpg... 6.146952
-Analyzing vote for test_set/beaver/image_0022.jpg... 6.14696
-Analyzing vote for test_set/beaver/image_0023.jpg... 6.146968
-Analyzing vote for test_set/beaver/image_0024.jpg... 6.146976
-Analyzing vote for test_set/beaver/image_0025.jpg... 6.146985
-Analyzing vote for test_set/beaver/image_0027.jpg... 6.146993
-Analyzing vote for test_set/beaver/image_0028.jpg... 6.147002
-Analyzing vote for test_set/beaver/image_0029.jpg... 6.14701
-Analyzing vote for test_set/beaver/image_0032.jpg... 6.147019
-Analyzing vote for test_set/beaver/image_0033.jpg... 6.147028
-Analyzing vote for test_set/beaver/image_0034.jpg... 6.147037
-Analyzing vote for test_set/beaver/image_0037.jpg... 6.147045
-Analyzing vote for test_set/beaver/image_0039.jpg... 6.147054
-Analyzing vote for test_set/beaver/image_0040.jpg... 6.147064
-Analyzing vote for test_set/beaver/image_0041.jpg... 6.147073
-Analyzing vote for test_set/beaver/image_0043.jpg... 6.147082
-Analyzing vote for test_set/beaver/image_0044.jpg... 6.147091
-Analyzing vote for test_set/beaver/image_0045.jpg... 6.147101
-Analyzing vote for test_set/beaver/image_0046.jpg... 6.147111
-Analyzing vote for test_set/beaver/image_0001.jpg... 6.147121
-Analyzing vote for test_set/beaver/image_0002.jpg... 6.147127
-Analyzing vote for test_set/beaver/image_0004.jpg... 6.147134
-Analyzing vote for test_set/beaver/image_0005.jpg... 6.14714
-Analyzing vote for test_set/beaver/image_0007.jpg... 6.147147
-Analyzing vote for test_set/beaver/image_0008.jpg... 6.147154
-Analyzing vote for test_set/beaver/image_0012.jpg... 6.147161
-Analyzing vote for test_set/beaver/image_0016.jpg... 6.147168
-Analyzing vote for test_set/beaver/image_0017.jpg... 6.147175
-Analyzing vote for test_set/beaver/image_0018.jpg... 6.147183
-Analyzing vote for test_set/beaver/image_0019.jpg... 6.147192
-Analyzing vote for test_set/beaver/image_0020.jpg... 6.147209
-Analyzing vote for test_set/beaver/image_0021.jpg... 6.147221
-Analyzing vote for test_set/beaver/image_0022.jpg... 6.147232
-Analyzing vote for test_set/beaver/image_0023.jpg... 6.147241
-Analyzing vote for test_set/beaver/image_0024.jpg... 6.147249
-Analyzing vote for test_set/beaver/image_0025.jpg... 6.147257
-Analyzing vote for test_set/beaver/image_0027.jpg... 6.147265
-Analyzing vote for test_set/beaver/image_0028.jpg... 6.147273
-Analyzing vote for test_set/beaver/image_0029.jpg... 6.147281
-Analyzing vote for test_set/beaver/image_0032.jpg... 6.14729
-Analyzing vote for test_set/beaver/image_0033.jpg... 6.147299
-Analyzing vote for test_set/beaver/image_0034.jpg... 6.147307
-Analyzing vote for test_set/beaver/image_0037.jpg... 6.147316
-Analyzing vote for test_set/beaver/image_0039.jpg... 6.147325
-Analyzing vote for test_set/beaver/image_0040.jpg... 6.147334
-Analyzing vote for test_set/beaver/image_0041.jpg... 6.147343
-Analyzing vote for test_set/beaver/image_0043.jpg... 6.147352
-Analyzing vote for test_set/beaver/image_0044.jpg... 6.147361
-Analyzing vote for test_set/beaver/image_0045.jpg... 6.147371
-Analyzing vote for test_set/beaver/image_0046.jpg... 6.14738
-Analyzing vote for test_set/euphonium/image_0003.jpg... 6.14739
-Analyzing vote for test_set/euphonium/image_0004.jpg... 6.147398
-Analyzing vote for test_set/euphonium/image_0006.jpg... 6.147405
-Analyzing vote for test_set/euphonium/image_0008.jpg... 6.147413
-Analyzing vote for test_set/euphonium/image_0009.jpg... 6.147421
-Analyzing vote for test_set/euphonium/image_0012.jpg... 6.147429
-Analyzing vote for test_set/euphonium/image_0013.jpg... 6.147436
-Analyzing vote for test_set/euphonium/image_0014.jpg... 6.147444
-Analyzing vote for test_set/euphonium/image_0015.jpg... 6.147453
-Analyzing vote for test_set/euphonium/image_0016.jpg... 6.147461
-Analyzing vote for test_set/euphonium/image_0017.jpg... 6.147469
-Analyzing vote for test_set/euphonium/image_0018.jpg... 6.147478
-Analyzing vote for test_set/euphonium/image_0019.jpg... 6.147486
-Analyzing vote for test_set/euphonium/image_0021.jpg... 6.147495
-Analyzing vote for test_set/euphonium/image_0022.jpg... 6.147504
-Analyzing vote for test_set/euphonium/image_0023.jpg... 6.147513
-Analyzing vote for test_set/euphonium/image_0024.jpg... 6.147522
-Analyzing vote for test_set/euphonium/image_0025.jpg... 6.147531
-Analyzing vote for test_set/euphonium/image_0026.jpg... 6.147541
-Analyzing vote for test_set/euphonium/image_0027.jpg... 6.14755
-Analyzing vote for test_set/euphonium/image_0029.jpg... 6.147559
-Analyzing vote for test_set/euphonium/image_0032.jpg... 6.147569
-Analyzing vote for test_set/euphonium/image_0033.jpg... 6.147578
-Analyzing vote for test_set/euphonium/image_0034.jpg... 6.147624
-Analyzing vote for test_set/euphonium/image_0035.jpg... 6.147642
-Analyzing vote for test_set/euphonium/image_0036.jpg... 6.147653
-Analyzing vote for test_set/euphonium/image_0037.jpg... 6.147663
-Analyzing vote for test_set/euphonium/image_0038.jpg... 6.147674
-Analyzing vote for test_set/euphonium/image_0039.jpg... 6.147685
-Analyzing vote for test_set/euphonium/image_0041.jpg... 6.147698
-Analyzing vote for test_set/euphonium/image_0042.jpg... 6.147721
-Analyzing vote for test_set/euphonium/image_0043.jpg... 6.147736
-Analyzing vote for test_set/euphonium/image_0045.jpg... 6.147748
-Analyzing vote for test_set/euphonium/image_0046.jpg... 6.147759
-Analyzing vote for test_set/euphonium/image_0047.jpg... 6.147771
-Analyzing vote for test_set/euphonium/image_0048.jpg... 6.147783
-Analyzing vote for test_set/euphonium/image_0052.jpg... 6.147794
-Analyzing vote for test_set/euphonium/image_0053.jpg... 6.147806
-Analyzing vote for test_set/euphonium/image_0054.jpg... 6.147818
-Analyzing vote for test_set/euphonium/image_0055.jpg... 6.14783
-Analyzing vote for test_set/euphonium/image_0056.jpg... 6.147842
-Analyzing vote for test_set/euphonium/image_0057.jpg... 6.147854
-Analyzing vote for test_set/euphonium/image_0058.jpg... 6.147867
-Analyzing vote for test_set/euphonium/image_0059.jpg... 6.147879
-Analyzing vote for test_set/euphonium/image_0060.jpg... 6.147891
-Analyzing vote for test_set/euphonium/image_0061.jpg... 6.147904
-Analyzing vote for test_set/euphonium/image_0062.jpg... 6.14792
-Analyzing vote for test_set/euphonium/image_0063.jpg... 6.147933
-Analyzing vote for test_set/euphonium/image_0064.jpg... 6.147959
-Analyzing vote for test_set/euphonium/image_0003.jpg... 6.147988
-Analyzing vote for test_set/euphonium/image_0004.jpg... 6.147997
-Analyzing vote for test_set/euphonium/image_0006.jpg... 6.148005
-Analyzing vote for test_set/euphonium/image_0008.jpg... 6.148013
-Analyzing vote for test_set/euphonium/image_0009.jpg... 6.14802
-Analyzing vote for test_set/euphonium/image_0012.jpg... 6.148028
-Analyzing vote for test_set/euphonium/image_0013.jpg... 6.148036
-Analyzing vote for test_set/euphonium/image_0014.jpg... 6.148044
-Analyzing vote for test_set/euphonium/image_0015.jpg... 6.148053
-Analyzing vote for test_set/euphonium/image_0016.jpg... 6.148061
-Analyzing vote for test_set/euphonium/image_0017.jpg... 6.14807
-Analyzing vote for test_set/euphonium/image_0018.jpg... 6.148079
-Analyzing vote for test_set/euphonium/image_0019.jpg... 6.148087
-Analyzing vote for test_set/euphonium/image_0021.jpg... 6.148096
-Analyzing vote for test_set/euphonium/image_0022.jpg... 6.148105
-Analyzing vote for test_set/euphonium/image_0023.jpg... 6.148114
-Analyzing vote for test_set/euphonium/image_0024.jpg... 6.148123
-Analyzing vote for test_set/euphonium/image_0025.jpg... 6.148132
-Analyzing vote for test_set/euphonium/image_0026.jpg... 6.148141
-Analyzing vote for test_set/euphonium/image_0027.jpg... 6.148151
-Analyzing vote for test_set/euphonium/image_0029.jpg... 6.14816
-Analyzing vote for test_set/euphonium/image_0032.jpg... 6.14817
-Analyzing vote for test_set/euphonium/image_0033.jpg... 6.14818
-Analyzing vote for test_set/euphonium/image_0034.jpg... 6.148197
-Analyzing vote for test_set/euphonium/image_0035.jpg... 6.148216
-Analyzing vote for test_set/euphonium/image_0036.jpg... 6.148227
-Analyzing vote for test_set/euphonium/image_0037.jpg... 6.148238
-Analyzing vote for test_set/euphonium/image_0038.jpg... 6.148248
-Analyzing vote for test_set/euphonium/image_0039.jpg... 6.148258
-Analyzing vote for test_set/euphonium/image_0041.jpg... 6.148269
-Analyzing vote for test_set/euphonium/image_0042.jpg... 6.148279
-Analyzing vote for test_set/euphonium/image_0043.jpg... 6.14829
-Analyzing vote for test_set/euphonium/image_0045.jpg... 6.148301
-Analyzing vote for test_set/euphonium/image_0046.jpg... 6.148312
-Analyzing vote for test_set/euphonium/image_0047.jpg... 6.148322
-Analyzing vote for test_set/euphonium/image_0048.jpg... 6.148333
-Analyzing vote for test_set/euphonium/image_0052.jpg... 6.148345
-Analyzing vote for test_set/euphonium/image_0053.jpg... 6.148356
-Analyzing vote for test_set/euphonium/image_0054.jpg... 6.148367
-Analyzing vote for test_set/euphonium/image_0055.jpg... 6.148379
-Analyzing vote for test_set/euphonium/image_0056.jpg... 6.148391
-Analyzing vote for test_set/euphonium/image_0057.jpg... 6.148403
-Analyzing vote for test_set/euphonium/image_0058.jpg... 6.148414
-Analyzing vote for test_set/euphonium/image_0059.jpg... 6.148426
-Analyzing vote for test_set/euphonium/image_0060.jpg... 6.148438
-Analyzing vote for test_set/euphonium/image_0061.jpg... 6.148451
-Analyzing vote for test_set/euphonium/image_0062.jpg... 6.148463
-Analyzing vote for test_set/euphonium/image_0063.jpg... 6.148476
-Analyzing vote for test_set/euphonium/image_0064.jpg... 6.148488
-Analyzing vote for test_set/euphonium/image_0003.jpg... 6.148501
-Analyzing vote for test_set/euphonium/image_0004.jpg... 6.148508
-Analyzing vote for test_set/euphonium/image_0006.jpg... 6.148516
-Analyzing vote for test_set/euphonium/image_0008.jpg... 6.148523
-Analyzing vote for test_set/euphonium/image_0009.jpg... 6.148531
-Analyzing vote for test_set/euphonium/image_0012.jpg... 6.148539
-Analyzing vote for test_set/euphonium/image_0013.jpg... 6.148547
-Analyzing vote for test_set/euphonium/image_0014.jpg... 6.148555
-Analyzing vote for test_set/euphonium/image_0015.jpg... 6.148563
-Analyzing vote for test_set/euphonium/image_0016.jpg... 6.148571
-Analyzing vote for test_set/euphonium/image_0017.jpg... 6.148579
-Analyzing vote for test_set/euphonium/image_0018.jpg... 6.148591
-Analyzing vote for test_set/euphonium/image_0019.jpg... 6.1486
-Analyzing vote for test_set/euphonium/image_0021.jpg... 6.148608
-Analyzing vote for test_set/euphonium/image_0022.jpg... 6.148617
-Analyzing vote for test_set/euphonium/image_0023.jpg... 6.148626
-Analyzing vote for test_set/euphonium/image_0024.jpg... 6.148635
-Analyzing vote for test_set/euphonium/image_0025.jpg... 6.148644
-Analyzing vote for test_set/euphonium/image_0026.jpg... 6.148653
-Analyzing vote for test_set/euphonium/image_0027.jpg... 6.148663
-Analyzing vote for test_set/euphonium/image_0029.jpg... 6.148672
-Analyzing vote for test_set/euphonium/image_0032.jpg... 6.148682
-Analyzing vote for test_set/euphonium/image_0033.jpg... 6.148691
-Analyzing vote for test_set/euphonium/image_0034.jpg... 6.148701
-Analyzing vote for test_set/euphonium/image_0035.jpg... 6.148711
-Analyzing vote for test_set/euphonium/image_0036.jpg... 6.148721
-Analyzing vote for test_set/euphonium/image_0037.jpg... 6.148731
-Analyzing vote for test_set/euphonium/image_0038.jpg... 6.148744
-Analyzing vote for test_set/euphonium/image_0039.jpg... 6.148765
-Analyzing vote for test_set/euphonium/image_0041.jpg... 6.148778
-Analyzing vote for test_set/euphonium/image_0042.jpg... 6.148789
-Analyzing vote for test_set/euphonium/image_0043.jpg... 6.1488
-Analyzing vote for test_set/euphonium/image_0045.jpg... 6.14881
-Analyzing vote for test_set/euphonium/image_0046.jpg... 6.148821
-Analyzing vote for test_set/euphonium/image_0047.jpg... 6.148832
-Analyzing vote for test_set/euphonium/image_0048.jpg... 6.148843
-Analyzing vote for test_set/euphonium/image_0052.jpg... 6.148854
-Analyzing vote for test_set/euphonium/image_0053.jpg... 6.148866
-Analyzing vote for test_set/euphonium/image_0054.jpg... 6.148877
-Analyzing vote for test_set/euphonium/image_0055.jpg... 6.148888
-Analyzing vote for test_set/euphonium/image_0056.jpg... 6.1489
-Analyzing vote for test_set/euphonium/image_0057.jpg... 6.148912
-Analyzing vote for test_set/euphonium/image_0058.jpg... 6.148924
-Analyzing vote for test_set/euphonium/image_0059.jpg... 6.148935
-Analyzing vote for test_set/euphonium/image_0060.jpg... 6.148947
-Analyzing vote for test_set/euphonium/image_0061.jpg... 6.148959
-Analyzing vote for test_set/euphonium/image_0062.jpg... 6.148971
-Analyzing vote for test_set/euphonium/image_0063.jpg... 6.148984
-Analyzing vote for test_set/euphonium/image_0064.jpg... 6.148996
-Analyzing vote for test_set/euphonium/image_0003.jpg... 6.149009
-Analyzing vote for test_set/euphonium/image_0004.jpg... 6.149016
-Analyzing vote for test_set/euphonium/image_0006.jpg... 6.149024
-Analyzing vote for test_set/euphonium/image_0008.jpg... 6.149031
-Analyzing vote for test_set/euphonium/image_0009.jpg... 6.149039
-Analyzing vote for test_set/euphonium/image_0012.jpg... 6.149046
-Analyzing vote for test_set/euphonium/image_0013.jpg... 6.149054
-Analyzing vote for test_set/euphonium/image_0014.jpg... 6.149062
-Analyzing vote for test_set/euphonium/image_0015.jpg... 6.14907
-Analyzing vote for test_set/euphonium/image_0016.jpg... 6.149078
-Analyzing vote for test_set/euphonium/image_0017.jpg... 6.149087
-Analyzing vote for test_set/euphonium/image_0018.jpg... 6.149095
-Analyzing vote for test_set/euphonium/image_0019.jpg... 6.149103
-Analyzing vote for test_set/euphonium/image_0021.jpg... 6.149112
-Analyzing vote for test_set/euphonium/image_0022.jpg... 6.149121
-Analyzing vote for test_set/euphonium/image_0023.jpg... 6.14913
-Analyzing vote for test_set/euphonium/image_0024.jpg... 6.149138
-Analyzing vote for test_set/euphonium/image_0025.jpg... 6.149147
-Analyzing vote for test_set/euphonium/image_0026.jpg... 6.149156
-Analyzing vote for test_set/euphonium/image_0027.jpg... 6.149166
-Analyzing vote for test_set/euphonium/image_0029.jpg... 6.149175
-Analyzing vote for test_set/euphonium/image_0032.jpg... 6.149185
-Analyzing vote for test_set/euphonium/image_0033.jpg... 6.149195
-Analyzing vote for test_set/euphonium/image_0034.jpg... 6.149204
-Analyzing vote for test_set/euphonium/image_0035.jpg... 6.149214
-Analyzing vote for test_set/euphonium/image_0036.jpg... 6.149227
-Analyzing vote for test_set/euphonium/image_0037.jpg... 6.149237
-Analyzing vote for test_set/euphonium/image_0038.jpg... 6.149247
-Analyzing vote for test_set/euphonium/image_0039.jpg... 6.149258
-Analyzing vote for test_set/euphonium/image_0041.jpg... 6.149274
-Analyzing vote for test_set/euphonium/image_0042.jpg... 6.149294
-Analyzing vote for test_set/euphonium/image_0043.jpg... 6.149306
-Analyzing vote for test_set/euphonium/image_0045.jpg... 6.149316
-Analyzing vote for test_set/euphonium/image_0046.jpg... 6.149327
-Analyzing vote for test_set/euphonium/image_0047.jpg... 6.149338
-Analyzing vote for test_set/euphonium/image_0048.jpg... 6.149349
-Analyzing vote for test_set/euphonium/image_0052.jpg... 6.14936
-Analyzing vote for test_set/euphonium/image_0053.jpg... 6.149372
-Analyzing vote for test_set/euphonium/image_0054.jpg... 6.149383
-Analyzing vote for test_set/euphonium/image_0055.jpg... 6.149395
-Analyzing vote for test_set/euphonium/image_0056.jpg... 6.149406
-Analyzing vote for test_set/euphonium/image_0057.jpg... 6.149418
-Analyzing vote for test_set/euphonium/image_0058.jpg... 6.149429
-Analyzing vote for test_set/euphonium/image_0059.jpg... 6.149441
-Analyzing vote for test_set/euphonium/image_0060.jpg... 6.149453
-Analyzing vote for test_set/euphonium/image_0061.jpg... 6.149465
-Analyzing vote for test_set/euphonium/image_0062.jpg... 6.149477
-Analyzing vote for test_set/euphonium/image_0063.jpg... 6.149489
-Analyzing vote for test_set/euphonium/image_0064.jpg... 6.149502
-Analyzing vote for test_set/euphonium/image_0003.jpg... 6.149515
-Analyzing vote for test_set/euphonium/image_0004.jpg... 6.149522
-Analyzing vote for test_set/euphonium/image_0006.jpg... 6.14953
-Analyzing vote for test_set/euphonium/image_0008.jpg... 6.149538
-Analyzing vote for test_set/euphonium/image_0009.jpg... 6.149546
-Analyzing vote for test_set/euphonium/image_0012.jpg... 6.149554
-Analyzing vote for test_set/euphonium/image_0013.jpg... 6.149562
-Analyzing vote for test_set/euphonium/image_0014.jpg... 6.14957
-Analyzing vote for test_set/euphonium/image_0015.jpg... 6.149578
-Analyzing vote for test_set/euphonium/image_0016.jpg... 6.149586
-Analyzing vote for test_set/euphonium/image_0017.jpg... 6.149595
-Analyzing vote for test_set/euphonium/image_0018.jpg... 6.149603
-Analyzing vote for test_set/euphonium/image_0019.jpg... 6.149612
-Analyzing vote for test_set/euphonium/image_0021.jpg... 6.149621
-Analyzing vote for test_set/euphonium/image_0022.jpg... 6.149629
-Analyzing vote for test_set/euphonium/image_0023.jpg... 6.149638
-Analyzing vote for test_set/euphonium/image_0024.jpg... 6.149647
-Analyzing vote for test_set/euphonium/image_0025.jpg... 6.149657
-Analyzing vote for test_set/euphonium/image_0026.jpg... 6.149666
-Analyzing vote for test_set/euphonium/image_0027.jpg... 6.149675
-Analyzing vote for test_set/euphonium/image_0029.jpg... 6.149685
-Analyzing vote for test_set/euphonium/image_0032.jpg... 6.149695
-Analyzing vote for test_set/euphonium/image_0033.jpg... 6.149705
-Analyzing vote for test_set/euphonium/image_0034.jpg... 6.149715
-Analyzing vote for test_set/euphonium/image_0035.jpg... 6.149725
-Analyzing vote for test_set/euphonium/image_0036.jpg... 6.149735
-Analyzing vote for test_set/euphonium/image_0037.jpg... 6.149745
-Analyzing vote for test_set/euphonium/image_0038.jpg... 6.149756
-Analyzing vote for test_set/euphonium/image_0039.jpg... 6.149766
-Analyzing vote for test_set/euphonium/image_0041.jpg... 6.149777
-Analyzing vote for test_set/euphonium/image_0042.jpg... 6.149788
-Analyzing vote for test_set/euphonium/image_0043.jpg... 6.149798
-Analyzing vote for test_set/euphonium/image_0045.jpg... 6.149809
-Analyzing vote for test_set/euphonium/image_0046.jpg... 6.14982
-Analyzing vote for test_set/euphonium/image_0047.jpg... 6.149832
-Analyzing vote for test_set/euphonium/image_0048.jpg... 6.149844
-Analyzing vote for test_set/euphonium/image_0052.jpg... 6.149867
-Analyzing vote for test_set/euphonium/image_0053.jpg... 6.149882
-Analyzing vote for test_set/euphonium/image_0054.jpg... 6.149894
-Analyzing vote for test_set/euphonium/image_0055.jpg... 6.149905
-Analyzing vote for test_set/euphonium/image_0056.jpg... 6.14992
-Analyzing vote for test_set/euphonium/image_0057.jpg... 6.149932
-Analyzing vote for test_set/euphonium/image_0058.jpg... 6.149944
-Analyzing vote for test_set/euphonium/image_0059.jpg... 6.149956
-Analyzing vote for test_set/euphonium/image_0060.jpg... 6.149968
-Analyzing vote for test_set/euphonium/image_0061.jpg... 6.149981
-Analyzing vote for test_set/euphonium/image_0062.jpg... 6.149993
-Analyzing vote for test_set/euphonium/image_0063.jpg... 6.150006
-Analyzing vote for test_set/euphonium/image_0064.jpg... 6.150018
-Analyzing vote for test_set/euphonium/image_0003.jpg... 6.150031
-Analyzing vote for test_set/euphonium/image_0004.jpg... 6.150038
-Analyzing vote for test_set/euphonium/image_0006.jpg... 6.150046
-Analyzing vote for test_set/euphonium/image_0008.jpg... 6.150054
-Analyzing vote for test_set/euphonium/image_0009.jpg... 6.150062
-Analyzing vote for test_set/euphonium/image_0012.jpg... 6.15007
-Analyzing vote for test_set/euphonium/image_0013.jpg... 6.150078
-Analyzing vote for test_set/euphonium/image_0014.jpg... 6.150086
-Analyzing vote for test_set/euphonium/image_0015.jpg... 6.150094
-Analyzing vote for test_set/euphonium/image_0016.jpg... 6.150102
-Analyzing vote for test_set/euphonium/image_0017.jpg... 6.15011
-Analyzing vote for test_set/euphonium/image_0018.jpg... 6.150118
-Analyzing vote for test_set/euphonium/image_0019.jpg... 6.150127
-Analyzing vote for test_set/euphonium/image_0021.jpg... 6.150136
-Analyzing vote for test_set/euphonium/image_0022.jpg... 6.150145
-Analyzing vote for test_set/euphonium/image_0023.jpg... 6.150153
-Analyzing vote for test_set/euphonium/image_0024.jpg... 6.150163
-Analyzing vote for test_set/euphonium/image_0025.jpg... 6.150172
-Analyzing vote for test_set/euphonium/image_0026.jpg... 6.150181
-Analyzing vote for test_set/euphonium/image_0027.jpg... 6.15019
-Analyzing vote for test_set/euphonium/image_0029.jpg... 6.1502
-Analyzing vote for test_set/euphonium/image_0032.jpg... 6.150209
-Analyzing vote for test_set/euphonium/image_0033.jpg... 6.150219
-Analyzing vote for test_set/euphonium/image_0034.jpg... 6.150229
-Analyzing vote for test_set/euphonium/image_0035.jpg... 6.150238
-Analyzing vote for test_set/euphonium/image_0036.jpg... 6.150248
-Analyzing vote for test_set/euphonium/image_0037.jpg... 6.150258
-Analyzing vote for test_set/euphonium/image_0038.jpg... 6.150268
-Analyzing vote for test_set/euphonium/image_0039.jpg... 6.150279
-Analyzing vote for test_set/euphonium/image_0041.jpg... 6.150289
-Analyzing vote for test_set/euphonium/image_0042.jpg... 6.1503
-Analyzing vote for test_set/euphonium/image_0043.jpg... 6.150312
-Analyzing vote for test_set/euphonium/image_0045.jpg... 6.150334
-Analyzing vote for test_set/euphonium/image_0046.jpg... 6.150348
-Analyzing vote for test_set/euphonium/image_0047.jpg... 6.150359
-Analyzing vote for test_set/euphonium/image_0048.jpg... 6.15037
-Analyzing vote for test_set/euphonium/image_0052.jpg... 6.150382
-Analyzing vote for test_set/euphonium/image_0053.jpg... 6.150393
-Analyzing vote for test_set/euphonium/image_0054.jpg... 6.150404
-Analyzing vote for test_set/euphonium/image_0055.jpg... 6.150416
-Analyzing vote for test_set/euphonium/image_0056.jpg... 6.150427
-Analyzing vote for test_set/euphonium/image_0057.jpg... 6.150439
-Analyzing vote for test_set/euphonium/image_0058.jpg... 6.150451
-Analyzing vote for test_set/euphonium/image_0059.jpg... 6.150462
-Analyzing vote for test_set/euphonium/image_0060.jpg... 6.150474
-Analyzing vote for test_set/euphonium/image_0061.jpg... 6.150486
-Analyzing vote for test_set/euphonium/image_0062.jpg... 6.150498
-Analyzing vote for test_set/euphonium/image_0063.jpg... 6.150511
-Analyzing vote for test_set/euphonium/image_0064.jpg... 6.150523
-Analyzing vote for test_set/lamp/image_0001.jpg... 6.150535
-Analyzing vote for test_set/lamp/image_0002.jpg... 6.150544
-Analyzing vote for test_set/lamp/image_0003.jpg... 6.150553
-Analyzing vote for test_set/lamp/image_0004.jpg... 6.150563
-Analyzing vote for test_set/lamp/image_0005.jpg... 6.150572
-Analyzing vote for test_set/lamp/image_0006.jpg... 6.150584
-Analyzing vote for test_set/lamp/image_0007.jpg... 6.150595
-Analyzing vote for test_set/lamp/image_0008.jpg... 6.150604
-Analyzing vote for test_set/lamp/image_0010.jpg... 6.150614
-Analyzing vote for test_set/lamp/image_0011.jpg... 6.150624
-Analyzing vote for test_set/lamp/image_0014.jpg... 6.150633
-Analyzing vote for test_set/lamp/image_0015.jpg... 6.150643
-Analyzing vote for test_set/lamp/image_0016.jpg... 6.150653
-Analyzing vote for test_set/lamp/image_0020.jpg... 6.150663
-Analyzing vote for test_set/lamp/image_0021.jpg... 6.150674
-Analyzing vote for test_set/lamp/image_0022.jpg... 6.150684
-Analyzing vote for test_set/lamp/image_0023.jpg... 6.150694
-Analyzing vote for test_set/lamp/image_0025.jpg... 6.150705
-Analyzing vote for test_set/lamp/image_0027.jpg... 6.150716
-Analyzing vote for test_set/lamp/image_0028.jpg... 6.150727
-Analyzing vote for test_set/lamp/image_0029.jpg... 6.150738
-Analyzing vote for test_set/lamp/image_0030.jpg... 6.150748
-Analyzing vote for test_set/lamp/image_0031.jpg... 6.150759
-Analyzing vote for test_set/lamp/image_0032.jpg... 6.150771
-Analyzing vote for test_set/lamp/image_0035.jpg... 6.150782
-Analyzing vote for test_set/lamp/image_0036.jpg... 6.150793
-Analyzing vote for test_set/lamp/image_0037.jpg... 6.150805
-Analyzing vote for test_set/lamp/image_0038.jpg... 6.150816
-Analyzing vote for test_set/lamp/image_0039.jpg... 6.150828
-Analyzing vote for test_set/lamp/image_0040.jpg... 6.150849
-Analyzing vote for test_set/lamp/image_0041.jpg... 6.150868
-Analyzing vote for test_set/lamp/image_0042.jpg... 6.15088
-Analyzing vote for test_set/lamp/image_0045.jpg... 6.150892
-Analyzing vote for test_set/lamp/image_0046.jpg... 6.150904
-Analyzing vote for test_set/lamp/image_0048.jpg... 6.150917
-Analyzing vote for test_set/lamp/image_0049.jpg... 6.150929
-Analyzing vote for test_set/lamp/image_0050.jpg... 6.150941
-Analyzing vote for test_set/lamp/image_0051.jpg... 6.150954
-Analyzing vote for test_set/lamp/image_0053.jpg... 6.150967
-Analyzing vote for test_set/lamp/image_0054.jpg... 6.15098
-Analyzing vote for test_set/lamp/image_0055.jpg... 6.150993
-Analyzing vote for test_set/lamp/image_0057.jpg... 6.151005
-Analyzing vote for test_set/lamp/image_0058.jpg... 6.151018
-Analyzing vote for test_set/lamp/image_0059.jpg... 6.151032
-Analyzing vote for test_set/lamp/image_0060.jpg... 6.151045
-Analyzing vote for test_set/lamp/image_0061.jpg... 6.151058
-Analyzing vote for test_set/lamp/image_0001.jpg... 6.151071
-Analyzing vote for test_set/lamp/image_0002.jpg... 6.15108
-Analyzing vote for test_set/lamp/image_0003.jpg... 6.151089
-Analyzing vote for test_set/lamp/image_0004.jpg... 6.151098
-Analyzing vote for test_set/lamp/image_0005.jpg... 6.151107
-Analyzing vote for test_set/lamp/image_0006.jpg... 6.151117
-Analyzing vote for test_set/lamp/image_0007.jpg... 6.151126
-Analyzing vote for test_set/lamp/image_0008.jpg... 6.151136
-Analyzing vote for test_set/lamp/image_0010.jpg... 6.151145
-Analyzing vote for test_set/lamp/image_0011.jpg... 6.151155
-Analyzing vote for test_set/lamp/image_0014.jpg... 6.151164
-Analyzing vote for test_set/lamp/image_0015.jpg... 6.151174
-Analyzing vote for test_set/lamp/image_0016.jpg... 6.151184
-Analyzing vote for test_set/lamp/image_0020.jpg... 6.151194
-Analyzing vote for test_set/lamp/image_0021.jpg... 6.151204
-Analyzing vote for test_set/lamp/image_0022.jpg... 6.151215
-Analyzing vote for test_set/lamp/image_0023.jpg... 6.151225
-Analyzing vote for test_set/lamp/image_0025.jpg... 6.151235
-Analyzing vote for test_set/lamp/image_0027.jpg... 6.151246
-Analyzing vote for test_set/lamp/image_0028.jpg... 6.151257
-Analyzing vote for test_set/lamp/image_0029.jpg... 6.151267
-Analyzing vote for test_set/lamp/image_0030.jpg... 6.151278
-Analyzing vote for test_set/lamp/image_0031.jpg... 6.151289
-Analyzing vote for test_set/lamp/image_0032.jpg... 6.1513
-Analyzing vote for test_set/lamp/image_0035.jpg... 6.151318
-Analyzing vote for test_set/lamp/image_0036.jpg... 6.151337
-Analyzing vote for test_set/lamp/image_0037.jpg... 6.15135
-Analyzing vote for test_set/lamp/image_0038.jpg... 6.151364
-Analyzing vote for test_set/lamp/image_0039.jpg... 6.151376
-Analyzing vote for test_set/lamp/image_0040.jpg... 6.151388
-Analyzing vote for test_set/lamp/image_0041.jpg... 6.1514
-Analyzing vote for test_set/lamp/image_0042.jpg... 6.151412
-Analyzing vote for test_set/lamp/image_0045.jpg... 6.151424
-Analyzing vote for test_set/lamp/image_0046.jpg... 6.151436
-Analyzing vote for test_set/lamp/image_0048.jpg... 6.151448
-Analyzing vote for test_set/lamp/image_0049.jpg... 6.151461
-Analyzing vote for test_set/lamp/image_0050.jpg... 6.151473
-Analyzing vote for test_set/lamp/image_0051.jpg... 6.151486
-Analyzing vote for test_set/lamp/image_0053.jpg... 6.151498
-Analyzing vote for test_set/lamp/image_0054.jpg... 6.151511
-Analyzing vote for test_set/lamp/image_0055.jpg... 6.151524
-Analyzing vote for test_set/lamp/image_0057.jpg... 6.151537
-Analyzing vote for test_set/lamp/image_0058.jpg... 6.15155
-Analyzing vote for test_set/lamp/image_0059.jpg... 6.151563
-Analyzing vote for test_set/lamp/image_0060.jpg... 6.151576
-Analyzing vote for test_set/lamp/image_0061.jpg... 6.15161
-Analyzing vote for test_set/lamp/image_0001.jpg... 6.151627
-Analyzing vote for test_set/lamp/image_0002.jpg... 6.151636
-Analyzing vote for test_set/lamp/image_0003.jpg... 6.151646
-Analyzing vote for test_set/lamp/image_0004.jpg... 6.151655
-Analyzing vote for test_set/lamp/image_0005.jpg... 6.151664
-Analyzing vote for test_set/lamp/image_0006.jpg... 6.151674
-Analyzing vote for test_set/lamp/image_0007.jpg... 6.151684
-Analyzing vote for test_set/lamp/image_0008.jpg... 6.151693
-Analyzing vote for test_set/lamp/image_0010.jpg... 6.151703
-Analyzing vote for test_set/lamp/image_0011.jpg... 6.151713
-Analyzing vote for test_set/lamp/image_0014.jpg... 6.151723
-Analyzing vote for test_set/lamp/image_0015.jpg... 6.151733
-Analyzing vote for test_set/lamp/image_0016.jpg... 6.151744
-Analyzing vote for test_set/lamp/image_0020.jpg... 6.151754
-Analyzing vote for test_set/lamp/image_0021.jpg... 6.151764
-Analyzing vote for test_set/lamp/image_0022.jpg... 6.151775
-Analyzing vote for test_set/lamp/image_0023.jpg... 6.151786
-Analyzing vote for test_set/lamp/image_0025.jpg... 6.151799
-Analyzing vote for test_set/lamp/image_0027.jpg... 6.151822
-Analyzing vote for test_set/lamp/image_0028.jpg... 6.151836
-Analyzing vote for test_set/lamp/image_0029.jpg... 6.151848
-Analyzing vote for test_set/lamp/image_0030.jpg... 6.151859
-Analyzing vote for test_set/lamp/image_0031.jpg... 6.15187
-Analyzing vote for test_set/lamp/image_0032.jpg... 6.151882
-Analyzing vote for test_set/lamp/image_0035.jpg... 6.151893
-Analyzing vote for test_set/lamp/image_0036.jpg... 6.151904
-Analyzing vote for test_set/lamp/image_0037.jpg... 6.151916
-Analyzing vote for test_set/lamp/image_0038.jpg... 6.151928
-Analyzing vote for test_set/lamp/image_0039.jpg... 6.15195
-Analyzing vote for test_set/lamp/image_0040.jpg... 6.151983
-Analyzing vote for test_set/lamp/image_0041.jpg... 6.151998
-Analyzing vote for test_set/lamp/image_0042.jpg... 6.152023
-Analyzing vote for test_set/lamp/image_0045.jpg... 6.152037
-Analyzing vote for test_set/lamp/image_0046.jpg... 6.15205
-Analyzing vote for test_set/lamp/image_0048.jpg... 6.152062
-Analyzing vote for test_set/lamp/image_0049.jpg... 6.152075
-Analyzing vote for test_set/lamp/image_0050.jpg... 6.152088
-Analyzing vote for test_set/lamp/image_0051.jpg... 6.152101
-Analyzing vote for test_set/lamp/image_0053.jpg... 6.152115
-Analyzing vote for test_set/lamp/image_0054.jpg... 6.152128
-Analyzing vote for test_set/lamp/image_0055.jpg... 6.152142
-Analyzing vote for test_set/lamp/image_0057.jpg... 6.152155
-Analyzing vote for test_set/lamp/image_0058.jpg... 6.152169
-Analyzing vote for test_set/lamp/image_0059.jpg... 6.152182
-Analyzing vote for test_set/lamp/image_0060.jpg... 6.152196
-Analyzing vote for test_set/lamp/image_0061.jpg... 6.15221
-Analyzing vote for test_set/lamp/image_0001.jpg... 6.152224
-Analyzing vote for test_set/lamp/image_0002.jpg... 6.152233
-Analyzing vote for test_set/lamp/image_0003.jpg... 6.152243
-Analyzing vote for test_set/lamp/image_0004.jpg... 6.152252
-Analyzing vote for test_set/lamp/image_0005.jpg... 6.152266
-Analyzing vote for test_set/lamp/image_0006.jpg... 6.152289
-Analyzing vote for test_set/lamp/image_0007.jpg... 6.152303
-Analyzing vote for test_set/lamp/image_0008.jpg... 6.152313
-Analyzing vote for test_set/lamp/image_0010.jpg... 6.152322
-Analyzing vote for test_set/lamp/image_0011.jpg... 6.152346
-Analyzing vote for test_set/lamp/image_0014.jpg... 6.152356
-Analyzing vote for test_set/lamp/image_0015.jpg... 6.152366
-Analyzing vote for test_set/lamp/image_0016.jpg... 6.152376
-Analyzing vote for test_set/lamp/image_0020.jpg... 6.152386
-Analyzing vote for test_set/lamp/image_0021.jpg... 6.152396
-Analyzing vote for test_set/lamp/image_0022.jpg... 6.152406
-Analyzing vote for test_set/lamp/image_0023.jpg... 6.152417
-Analyzing vote for test_set/lamp/image_0025.jpg... 6.152427
-Analyzing vote for test_set/lamp/image_0027.jpg... 6.152438
-Analyzing vote for test_set/lamp/image_0028.jpg... 6.152449
-Analyzing vote for test_set/lamp/image_0029.jpg... 6.152459
-Analyzing vote for test_set/lamp/image_0030.jpg... 6.15247
-Analyzing vote for test_set/lamp/image_0031.jpg... 6.152481
-Analyzing vote for test_set/lamp/image_0032.jpg... 6.152492
-Analyzing vote for test_set/lamp/image_0035.jpg... 6.152503
-Analyzing vote for test_set/lamp/image_0036.jpg... 6.152515
-Analyzing vote for test_set/lamp/image_0037.jpg... 6.152526
-Analyzing vote for test_set/lamp/image_0038.jpg... 6.152538
-Analyzing vote for test_set/lamp/image_0039.jpg... 6.15255
-Analyzing vote for test_set/lamp/image_0040.jpg... 6.152561
-Analyzing vote for test_set/lamp/image_0041.jpg... 6.152573
-Analyzing vote for test_set/lamp/image_0042.jpg... 6.152585
-Analyzing vote for test_set/lamp/image_0045.jpg... 6.152597
-Analyzing vote for test_set/lamp/image_0046.jpg... 6.152609
-Analyzing vote for test_set/lamp/image_0048.jpg... 6.152622
-Analyzing vote for test_set/lamp/image_0049.jpg... 6.152634
-Analyzing vote for test_set/lamp/image_0050.jpg... 6.152646
-Analyzing vote for test_set/lamp/image_0051.jpg... 6.152659
-Analyzing vote for test_set/lamp/image_0053.jpg... 6.152672
-Analyzing vote for test_set/lamp/image_0054.jpg... 6.152684
-Analyzing vote for test_set/lamp/image_0055.jpg... 6.152697
-Analyzing vote for test_set/lamp/image_0057.jpg... 6.152711
-Analyzing vote for test_set/lamp/image_0058.jpg... 6.152724
-Analyzing vote for test_set/lamp/image_0059.jpg... 6.152737
-Analyzing vote for test_set/lamp/image_0060.jpg... 6.152752
-Analyzing vote for test_set/lamp/image_0061.jpg... 6.152777
-Analyzing vote for test_set/lamp/image_0001.jpg... 6.152794
-Analyzing vote for test_set/lamp/image_0002.jpg... 6.152804
-Analyzing vote for test_set/lamp/image_0003.jpg... 6.152813
-Analyzing vote for test_set/lamp/image_0004.jpg... 6.152823
-Analyzing vote for test_set/lamp/image_0005.jpg... 6.152832
-Analyzing vote for test_set/lamp/image_0006.jpg... 6.152842
-Analyzing vote for test_set/lamp/image_0007.jpg... 6.152851
-Analyzing vote for test_set/lamp/image_0008.jpg... 6.152861
-Analyzing vote for test_set/lamp/image_0010.jpg... 6.15287
-Analyzing vote for test_set/lamp/image_0011.jpg... 6.15288
-Analyzing vote for test_set/lamp/image_0014.jpg... 6.15289
-Analyzing vote for test_set/lamp/image_0015.jpg... 6.1529
-Analyzing vote for test_set/lamp/image_0016.jpg... 6.15291
-Analyzing vote for test_set/lamp/image_0020.jpg... 6.152921
-Analyzing vote for test_set/lamp/image_0021.jpg... 6.152931
-Analyzing vote for test_set/lamp/image_0022.jpg... 6.152941
-Analyzing vote for test_set/lamp/image_0023.jpg... 6.152952
-Analyzing vote for test_set/lamp/image_0025.jpg... 6.152963
-Analyzing vote for test_set/lamp/image_0027.jpg... 6.152973
-Analyzing vote for test_set/lamp/image_0028.jpg... 6.152984
-Analyzing vote for test_set/lamp/image_0029.jpg... 6.152995
-Analyzing vote for test_set/lamp/image_0030.jpg... 6.153006
-Analyzing vote for test_set/lamp/image_0031.jpg... 6.153017
-Analyzing vote for test_set/lamp/image_0032.jpg... 6.153028
-Analyzing vote for test_set/lamp/image_0035.jpg... 6.15304
-Analyzing vote for test_set/lamp/image_0036.jpg... 6.153051
-Analyzing vote for test_set/lamp/image_0037.jpg... 6.153065
-Analyzing vote for test_set/lamp/image_0038.jpg... 6.153077
-Analyzing vote for test_set/lamp/image_0039.jpg... 6.153089
-Analyzing vote for test_set/lamp/image_0040.jpg... 6.153101
-Analyzing vote for test_set/lamp/image_0041.jpg... 6.153113
-Analyzing vote for test_set/lamp/image_0042.jpg... 6.153125
-Analyzing vote for test_set/lamp/image_0045.jpg... 6.153138
-Analyzing vote for test_set/lamp/image_0046.jpg... 6.15315
-Analyzing vote for test_set/lamp/image_0048.jpg... 6.153162
-Analyzing vote for test_set/lamp/image_0049.jpg... 6.153175
-Analyzing vote for test_set/lamp/image_0050.jpg... 6.153187
-Analyzing vote for test_set/lamp/image_0051.jpg... 6.1532
-Analyzing vote for test_set/lamp/image_0053.jpg... 6.153213
-Analyzing vote for test_set/lamp/image_0054.jpg... 6.153226
-Analyzing vote for test_set/lamp/image_0055.jpg... 6.153242
-Analyzing vote for test_set/lamp/image_0057.jpg... 6.153266
-Analyzing vote for test_set/lamp/image_0058.jpg... 6.153281
-Analyzing vote for test_set/lamp/image_0059.jpg... 6.153295
-Analyzing vote for test_set/lamp/image_0060.jpg... 6.153308
-Analyzing vote for test_set/lamp/image_0061.jpg... 6.153322
-Analyzing vote for test_set/lamp/image_0001.jpg... 6.153335
-Analyzing vote for test_set/lamp/image_0002.jpg... 6.153345
-Analyzing vote for test_set/lamp/image_0003.jpg... 6.153354
-Analyzing vote for test_set/lamp/image_0004.jpg... 6.153363
-Analyzing vote for test_set/lamp/image_0005.jpg... 6.153372
-Analyzing vote for test_set/lamp/image_0006.jpg... 6.153381
-Analyzing vote for test_set/lamp/image_0007.jpg... 6.15339
-Analyzing vote for test_set/lamp/image_0008.jpg... 6.153399
-Analyzing vote for test_set/lamp/image_0010.jpg... 6.153409
-Analyzing vote for test_set/lamp/image_0011.jpg... 6.153419
-Analyzing vote for test_set/lamp/image_0014.jpg... 6.153428
-Analyzing vote for test_set/lamp/image_0015.jpg... 6.153438
-Analyzing vote for test_set/lamp/image_0016.jpg... 6.153448
-Analyzing vote for test_set/lamp/image_0020.jpg... 6.153457
-Analyzing vote for test_set/lamp/image_0021.jpg... 6.153467
-Analyzing vote for test_set/lamp/image_0022.jpg... 6.153478
-Analyzing vote for test_set/lamp/image_0023.jpg... 6.153488
-Analyzing vote for test_set/lamp/image_0025.jpg... 6.153498
-Analyzing vote for test_set/lamp/image_0027.jpg... 6.153508
-Analyzing vote for test_set/lamp/image_0028.jpg... 6.153519
-Analyzing vote for test_set/lamp/image_0029.jpg... 6.15353
-Analyzing vote for test_set/lamp/image_0030.jpg... 6.153541
-Analyzing vote for test_set/lamp/image_0031.jpg... 6.153551
-Analyzing vote for test_set/lamp/image_0032.jpg... 6.153562
-Analyzing vote for test_set/lamp/image_0035.jpg... 6.153573
-Analyzing vote for test_set/lamp/image_0036.jpg... 6.153584
-Analyzing vote for test_set/lamp/image_0037.jpg... 6.153596
-Analyzing vote for test_set/lamp/image_0038.jpg... 6.153607
-Analyzing vote for test_set/lamp/image_0039.jpg... 6.153619
-Analyzing vote for test_set/lamp/image_0040.jpg... 6.15363
-Analyzing vote for test_set/lamp/image_0041.jpg... 6.153642
-Analyzing vote for test_set/lamp/image_0042.jpg... 6.153654
-Analyzing vote for test_set/lamp/image_0045.jpg... 6.153666
-Analyzing vote for test_set/lamp/image_0046.jpg... 6.153678
-Analyzing vote for test_set/lamp/image_0048.jpg... 6.15369
-Analyzing vote for test_set/lamp/image_0049.jpg... 6.153702
-Analyzing vote for test_set/lamp/image_0050.jpg... 6.153714
-Analyzing vote for test_set/lamp/image_0051.jpg... 6.153727
-Analyzing vote for test_set/lamp/image_0053.jpg... 6.153739
-Analyzing vote for test_set/lamp/image_0054.jpg... 6.153752
-Analyzing vote for test_set/lamp/image_0055.jpg... 6.153765
-Analyzing vote for test_set/lamp/image_0057.jpg... 6.15379
-Analyzing vote for test_set/lamp/image_0058.jpg... 6.153807
-Analyzing vote for test_set/lamp/image_0059.jpg... 6.153821
-Analyzing vote for test_set/lamp/image_0060.jpg... 6.153834
-Analyzing vote for test_set/lamp/image_0061.jpg... 6.153847
-Analyzing vote for test_set/okapi/image_0001.jpg... 6.153861
-Analyzing vote for test_set/okapi/image_0003.jpg... 6.153872
-Analyzing vote for test_set/okapi/image_0004.jpg... 6.153882
-Analyzing vote for test_set/okapi/image_0005.jpg... 6.153895
-Analyzing vote for test_set/okapi/image_0009.jpg... 6.153907
-Analyzing vote for test_set/okapi/image_0010.jpg... 6.153917
-Analyzing vote for test_set/okapi/image_0015.jpg... 6.153928
-Analyzing vote for test_set/okapi/image_0016.jpg... 6.153939
-Analyzing vote for test_set/okapi/image_0017.jpg... 6.15395
-Analyzing vote for test_set/okapi/image_0019.jpg... 6.153961
-Analyzing vote for test_set/okapi/image_0020.jpg... 6.153973
-Analyzing vote for test_set/okapi/image_0021.jpg... 6.153984
-Analyzing vote for test_set/okapi/image_0022.jpg... 6.153995
-Analyzing vote for test_set/okapi/image_0023.jpg... 6.154007
-Analyzing vote for test_set/okapi/image_0026.jpg... 6.154019
-Analyzing vote for test_set/okapi/image_0028.jpg... 6.15403
-Analyzing vote for test_set/okapi/image_0029.jpg... 6.154042
-Analyzing vote for test_set/okapi/image_0031.jpg... 6.154054
-Analyzing vote for test_set/okapi/image_0033.jpg... 6.154066
-Analyzing vote for test_set/okapi/image_0034.jpg... 6.154078
-Analyzing vote for test_set/okapi/image_0036.jpg... 6.15409
-Analyzing vote for test_set/okapi/image_0037.jpg... 6.154102
-Analyzing vote for test_set/okapi/image_0038.jpg... 6.154115
-Analyzing vote for test_set/okapi/image_0039.jpg... 6.154128
-Analyzing vote for test_set/okapi/image_0001.jpg... 6.15414
-Analyzing vote for test_set/okapi/image_0003.jpg... 6.15415
-Analyzing vote for test_set/okapi/image_0004.jpg... 6.154161
-Analyzing vote for test_set/okapi/image_0005.jpg... 6.154172
-Analyzing vote for test_set/okapi/image_0009.jpg... 6.154182
-Analyzing vote for test_set/okapi/image_0010.jpg... 6.154193
-Analyzing vote for test_set/okapi/image_0015.jpg... 6.154204
-Analyzing vote for test_set/okapi/image_0016.jpg... 6.154215
-Analyzing vote for test_set/okapi/image_0017.jpg... 6.154226
-Analyzing vote for test_set/okapi/image_0019.jpg... 6.154237
-Analyzing vote for test_set/okapi/image_0020.jpg... 6.154248
-Analyzing vote for test_set/okapi/image_0021.jpg... 6.154259
-Analyzing vote for test_set/okapi/image_0022.jpg... 6.15427
-Analyzing vote for test_set/okapi/image_0023.jpg... 6.154282
-Analyzing vote for test_set/okapi/image_0026.jpg... 6.154293
-Analyzing vote for test_set/okapi/image_0028.jpg... 6.154305
-Analyzing vote for test_set/okapi/image_0029.jpg... 6.154317
-Analyzing vote for test_set/okapi/image_0031.jpg... 6.154328
-Analyzing vote for test_set/okapi/image_0033.jpg... 6.154346
-Analyzing vote for test_set/okapi/image_0034.jpg... 6.154367
-Analyzing vote for test_set/okapi/image_0036.jpg... 6.154381
-Analyzing vote for test_set/okapi/image_0037.jpg... 6.154393
-Analyzing vote for test_set/okapi/image_0038.jpg... 6.154406
-Analyzing vote for test_set/okapi/image_0039.jpg... 6.154419
-Analyzing vote for test_set/okapi/image_0001.jpg... 6.154431
-Analyzing vote for test_set/okapi/image_0003.jpg... 6.154441
-Analyzing vote for test_set/okapi/image_0004.jpg... 6.154452
-Analyzing vote for test_set/okapi/image_0005.jpg... 6.154462
-Analyzing vote for test_set/okapi/image_0009.jpg... 6.154473
-Analyzing vote for test_set/okapi/image_0010.jpg... 6.154483
-Analyzing vote for test_set/okapi/image_0015.jpg... 6.154494
-Analyzing vote for test_set/okapi/image_0016.jpg... 6.154505
-Analyzing vote for test_set/okapi/image_0017.jpg... 6.154516
-Analyzing vote for test_set/okapi/image_0019.jpg... 6.154527
-Analyzing vote for test_set/okapi/image_0020.jpg... 6.154538
-Analyzing vote for test_set/okapi/image_0021.jpg... 6.154549
-Analyzing vote for test_set/okapi/image_0022.jpg... 6.154561
-Analyzing vote for test_set/okapi/image_0023.jpg... 6.154572
-Analyzing vote for test_set/okapi/image_0026.jpg... 6.154584
-Analyzing vote for test_set/okapi/image_0028.jpg... 6.154595
-Analyzing vote for test_set/okapi/image_0029.jpg... 6.154607
-Analyzing vote for test_set/okapi/image_0031.jpg... 6.154619
-Analyzing vote for test_set/okapi/image_0033.jpg... 6.154631
-Analyzing vote for test_set/okapi/image_0034.jpg... 6.154644
-Analyzing vote for test_set/okapi/image_0036.jpg... 6.154656
-Analyzing vote for test_set/okapi/image_0037.jpg... 6.154668
-Analyzing vote for test_set/okapi/image_0038.jpg... 6.154683
-Analyzing vote for test_set/okapi/image_0039.jpg... 6.154696
-Analyzing vote for test_set/okapi/image_0001.jpg... 6.154709
-Analyzing vote for test_set/okapi/image_0003.jpg... 6.154719
-Analyzing vote for test_set/okapi/image_0004.jpg... 6.154729
-Analyzing vote for test_set/okapi/image_0005.jpg... 6.15474
-Analyzing vote for test_set/okapi/image_0009.jpg... 6.154751
-Analyzing vote for test_set/okapi/image_0010.jpg... 6.154761
-Analyzing vote for test_set/okapi/image_0015.jpg... 6.154772
-Analyzing vote for test_set/okapi/image_0016.jpg... 6.154783
-Analyzing vote for test_set/okapi/image_0017.jpg... 6.154794
-Analyzing vote for test_set/okapi/image_0019.jpg... 6.154805
-Analyzing vote for test_set/okapi/image_0020.jpg... 6.154816
-Analyzing vote for test_set/okapi/image_0021.jpg... 6.154827
-Analyzing vote for test_set/okapi/image_0022.jpg... 6.154839
-Analyzing vote for test_set/okapi/image_0023.jpg... 6.15485
-Analyzing vote for test_set/okapi/image_0026.jpg... 6.154862
-Analyzing vote for test_set/okapi/image_0028.jpg... 6.154873
-Analyzing vote for test_set/okapi/image_0029.jpg... 6.154885
-Analyzing vote for test_set/okapi/image_0031.jpg... 6.154897
-Analyzing vote for test_set/okapi/image_0033.jpg... 6.154909
-Analyzing vote for test_set/okapi/image_0034.jpg... 6.154921
-Analyzing vote for test_set/okapi/image_0036.jpg... 6.154934
-Analyzing vote for test_set/okapi/image_0037.jpg... 6.154946
-Analyzing vote for test_set/okapi/image_0038.jpg... 6.154958
-Analyzing vote for test_set/okapi/image_0039.jpg... 6.15497
-Analyzing vote for test_set/okapi/image_0001.jpg... 6.154983
-Analyzing vote for test_set/okapi/image_0003.jpg... 6.154999
-Analyzing vote for test_set/okapi/image_0004.jpg... 6.155021
-Analyzing vote for test_set/okapi/image_0005.jpg... 6.155035
-Analyzing vote for test_set/okapi/image_0009.jpg... 6.155046
-Analyzing vote for test_set/okapi/image_0010.jpg... 6.155057
-Analyzing vote for test_set/okapi/image_0015.jpg... 6.155068
-Analyzing vote for test_set/okapi/image_0016.jpg... 6.15508
-Analyzing vote for test_set/okapi/image_0017.jpg... 6.155091
-Analyzing vote for test_set/okapi/image_0019.jpg... 6.155103
-Analyzing vote for test_set/okapi/image_0020.jpg... 6.155114
-Analyzing vote for test_set/okapi/image_0021.jpg... 6.155125
-Analyzing vote for test_set/okapi/image_0022.jpg... 6.155137
-Analyzing vote for test_set/okapi/image_0023.jpg... 6.155149
-Analyzing vote for test_set/okapi/image_0026.jpg... 6.15516
-Analyzing vote for test_set/okapi/image_0028.jpg... 6.155172
-Analyzing vote for test_set/okapi/image_0029.jpg... 6.155184
-Analyzing vote for test_set/okapi/image_0031.jpg... 6.155196
-Analyzing vote for test_set/okapi/image_0033.jpg... 6.155219
-Analyzing vote for test_set/okapi/image_0034.jpg... 6.155238
-Analyzing vote for test_set/okapi/image_0036.jpg... 6.155251
-Analyzing vote for test_set/okapi/image_0037.jpg... 6.155263
-Analyzing vote for test_set/okapi/image_0038.jpg... 6.155276
-Analyzing vote for test_set/okapi/image_0039.jpg... 6.155289
-Analyzing vote for test_set/okapi/image_0001.jpg... 6.155301
-Analyzing vote for test_set/okapi/image_0003.jpg... 6.155312
-Analyzing vote for test_set/okapi/image_0004.jpg... 6.155322
-Analyzing vote for test_set/okapi/image_0005.jpg... 6.155333
-Analyzing vote for test_set/okapi/image_0009.jpg... 6.155343
-Analyzing vote for test_set/okapi/image_0010.jpg... 6.155354
-Analyzing vote for test_set/okapi/image_0015.jpg... 6.155365
-Analyzing vote for test_set/okapi/image_0016.jpg... 6.155376
-Analyzing vote for test_set/okapi/image_0017.jpg... 6.155387
-Analyzing vote for test_set/okapi/image_0019.jpg... 6.155398
-Analyzing vote for test_set/okapi/image_0020.jpg... 6.155409
-Analyzing vote for test_set/okapi/image_0021.jpg... 6.155421
-Analyzing vote for test_set/okapi/image_0022.jpg... 6.155432
-Analyzing vote for test_set/okapi/image_0023.jpg... 6.155444
-Analyzing vote for test_set/okapi/image_0026.jpg... 6.155455
-Analyzing vote for test_set/okapi/image_0028.jpg... 6.155467
-Analyzing vote for test_set/okapi/image_0029.jpg... 6.155478
-Analyzing vote for test_set/okapi/image_0031.jpg... 6.155493
-Analyzing vote for test_set/okapi/image_0033.jpg... 6.155506
-Analyzing vote for test_set/okapi/image_0034.jpg... 6.155518
-Analyzing vote for test_set/okapi/image_0036.jpg... 6.15553
-Analyzing vote for test_set/okapi/image_0037.jpg... 6.155542
-Analyzing vote for test_set/okapi/image_0038.jpg... 6.155555
-Analyzing vote for test_set/okapi/image_0039.jpg... 6.155567
-Tallying votes for test_set/beaver/image_0001.jpg... 6.155611
-Tallying votes for test_set/beaver/image_0002.jpg... 6.155663
-Tallying votes for test_set/beaver/image_0004.jpg... 6.155685
-Tallying votes for test_set/beaver/image_0005.jpg... 6.155704
-Tallying votes for test_set/beaver/image_0007.jpg... 6.155741
-Tallying votes for test_set/beaver/image_0008.jpg... 6.155764
-Tallying votes for test_set/beaver/image_0012.jpg... 6.155783
-Tallying votes for test_set/beaver/image_0016.jpg... 6.155801
-Tallying votes for test_set/beaver/image_0017.jpg... 6.15582
-Tallying votes for test_set/beaver/image_0018.jpg... 6.155838
-Tallying votes for test_set/beaver/image_0019.jpg... 6.155857
-Tallying votes for test_set/beaver/image_0020.jpg... 6.155876
-Tallying votes for test_set/beaver/image_0021.jpg... 6.155895
-Tallying votes for test_set/beaver/image_0022.jpg... 6.155914
-Tallying votes for test_set/beaver/image_0023.jpg... 6.155947
-Tallying votes for test_set/beaver/image_0024.jpg... 6.155983
-Tallying votes for test_set/beaver/image_0025.jpg... 6.156002
-Tallying votes for test_set/beaver/image_0027.jpg... 6.156022
-Tallying votes for test_set/beaver/image_0028.jpg... 6.156042
-Tallying votes for test_set/beaver/image_0029.jpg... 6.156061
-Tallying votes for test_set/beaver/image_0032.jpg... 6.156081
-Tallying votes for test_set/beaver/image_0033.jpg... 6.156103
-Tallying votes for test_set/beaver/image_0034.jpg... 6.156124
-Tallying votes for test_set/beaver/image_0037.jpg... 6.156145
-Tallying votes for test_set/beaver/image_0039.jpg... 6.156164
-Tallying votes for test_set/beaver/image_0040.jpg... 6.1562
-Tallying votes for test_set/beaver/image_0041.jpg... 6.156226
-Tallying votes for test_set/beaver/image_0043.jpg... 6.156247
-Tallying votes for test_set/beaver/image_0044.jpg... 6.156268
-Tallying votes for test_set/beaver/image_0045.jpg... 6.156288
-Tallying votes for test_set/beaver/image_0046.jpg... 6.156309
-Tallying votes for test_set/euphonium/image_0003.jpg... 6.15633
-Tallying votes for test_set/euphonium/image_0004.jpg... 6.156349
-Tallying votes for test_set/euphonium/image_0006.jpg... 6.156369
-Tallying votes for test_set/euphonium/image_0008.jpg... 6.156387
-Tallying votes for test_set/euphonium/image_0009.jpg... 6.156406
-Tallying votes for test_set/euphonium/image_0012.jpg... 6.156425
-Tallying votes for test_set/euphonium/image_0013.jpg... 6.156444
-Tallying votes for test_set/euphonium/image_0014.jpg... 6.156463
-Tallying votes for test_set/euphonium/image_0015.jpg... 6.156483
-Tallying votes for test_set/euphonium/image_0016.jpg... 6.156502
-Tallying votes for test_set/euphonium/image_0017.jpg... 6.156521
-Tallying votes for test_set/euphonium/image_0018.jpg... 6.15654
-Tallying votes for test_set/euphonium/image_0019.jpg... 6.15656
-Tallying votes for test_set/euphonium/image_0021.jpg... 6.15658
-Tallying votes for test_set/euphonium/image_0022.jpg... 6.156599
-Tallying votes for test_set/euphonium/image_0023.jpg... 6.156619
-Tallying votes for test_set/euphonium/image_0024.jpg... 6.156639
-Tallying votes for test_set/euphonium/image_0025.jpg... 6.156675
-Tallying votes for test_set/euphonium/image_0026.jpg... 6.156699
-Tallying votes for test_set/euphonium/image_0027.jpg... 6.15672
-Tallying votes for test_set/euphonium/image_0029.jpg... 6.15674
-Tallying votes for test_set/euphonium/image_0032.jpg... 6.156761
-Tallying votes for test_set/euphonium/image_0033.jpg... 6.156782
-Tallying votes for test_set/euphonium/image_0034.jpg... 6.156802
-Tallying votes for test_set/euphonium/image_0035.jpg... 6.156823
-Tallying votes for test_set/euphonium/image_0036.jpg... 6.156844
-Tallying votes for test_set/euphonium/image_0037.jpg... 6.156865
-Tallying votes for test_set/euphonium/image_0038.jpg... 6.156893
-Tallying votes for test_set/euphonium/image_0039.jpg... 6.156915
-Tallying votes for test_set/euphonium/image_0041.jpg... 6.156938
-Tallying votes for test_set/euphonium/image_0042.jpg... 6.156959
-Tallying votes for test_set/euphonium/image_0043.jpg... 6.156981
-Tallying votes for test_set/euphonium/image_0045.jpg... 6.157003
-Tallying votes for test_set/euphonium/image_0046.jpg... 6.157025
-Tallying votes for test_set/euphonium/image_0047.jpg... 6.157047
-Tallying votes for test_set/euphonium/image_0048.jpg... 6.157069
-Tallying votes for test_set/euphonium/image_0052.jpg... 6.157091
-Tallying votes for test_set/euphonium/image_0053.jpg... 6.157113
-Tallying votes for test_set/euphonium/image_0054.jpg... 6.157148
-Tallying votes for test_set/euphonium/image_0055.jpg... 6.157182
-Tallying votes for test_set/euphonium/image_0056.jpg... 6.157206
-Tallying votes for test_set/euphonium/image_0057.jpg... 6.157229
-Tallying votes for test_set/euphonium/image_0058.jpg... 6.157252
-Tallying votes for test_set/euphonium/image_0059.jpg... 6.157276
-Tallying votes for test_set/euphonium/image_0060.jpg... 6.157299
-Tallying votes for test_set/euphonium/image_0061.jpg... 6.157322
-Tallying votes for test_set/euphonium/image_0062.jpg... 6.157345
-Tallying votes for test_set/euphonium/image_0063.jpg... 6.157368
-Tallying votes for test_set/euphonium/image_0064.jpg... 6.157392
-Tallying votes for test_set/lamp/image_0001.jpg... 6.157415
-Tallying votes for test_set/lamp/image_0002.jpg... 6.157436
-Tallying votes for test_set/lamp/image_0003.jpg... 6.157456
-Tallying votes for test_set/lamp/image_0004.jpg... 6.157476
-Tallying votes for test_set/lamp/image_0005.jpg... 6.157497
-Tallying votes for test_set/lamp/image_0006.jpg... 6.157517
-Tallying votes for test_set/lamp/image_0007.jpg... 6.157538
-Tallying votes for test_set/lamp/image_0008.jpg... 6.157558
-Tallying votes for test_set/lamp/image_0010.jpg... 6.157579
-Tallying votes for test_set/lamp/image_0011.jpg... 6.1576
-Tallying votes for test_set/lamp/image_0014.jpg... 6.157622
-Tallying votes for test_set/lamp/image_0015.jpg... 6.157659
-Tallying votes for test_set/lamp/image_0016.jpg... 6.157684
-Tallying votes for test_set/lamp/image_0020.jpg... 6.157706
-Tallying votes for test_set/lamp/image_0021.jpg... 6.157727
-Tallying votes for test_set/lamp/image_0022.jpg... 6.157748
-Tallying votes for test_set/lamp/image_0023.jpg... 6.15777
-Tallying votes for test_set/lamp/image_0025.jpg... 6.157791
-Tallying votes for test_set/lamp/image_0027.jpg... 6.157813
-Tallying votes for test_set/lamp/image_0028.jpg... 6.157835
-Tallying votes for test_set/lamp/image_0029.jpg... 6.157856
-Tallying votes for test_set/lamp/image_0030.jpg... 6.157878
-Tallying votes for test_set/lamp/image_0031.jpg... 6.1579
-Tallying votes for test_set/lamp/image_0032.jpg... 6.157923
-Tallying votes for test_set/lamp/image_0035.jpg... 6.157945
-Tallying votes for test_set/lamp/image_0036.jpg... 6.157968
-Tallying votes for test_set/lamp/image_0037.jpg... 6.15799
-Tallying votes for test_set/lamp/image_0038.jpg... 6.158013
-Tallying votes for test_set/lamp/image_0039.jpg... 6.158036
-Tallying votes for test_set/lamp/image_0040.jpg... 6.158059
-Tallying votes for test_set/lamp/image_0041.jpg... 6.158082
-Tallying votes for test_set/lamp/image_0042.jpg... 6.158106
-Tallying votes for test_set/lamp/image_0045.jpg... 6.158129
-Tallying votes for test_set/lamp/image_0046.jpg... 6.158158
-Tallying votes for test_set/lamp/image_0048.jpg... 6.158195
-Tallying votes for test_set/lamp/image_0049.jpg... 6.15822
-Tallying votes for test_set/lamp/image_0050.jpg... 6.158244
-Tallying votes for test_set/lamp/image_0051.jpg... 6.158268
-Tallying votes for test_set/lamp/image_0053.jpg... 6.158292
-Tallying votes for test_set/lamp/image_0054.jpg... 6.158318
-Tallying votes for test_set/lamp/image_0055.jpg... 6.158343
-Tallying votes for test_set/lamp/image_0057.jpg... 6.158368
-Tallying votes for test_set/lamp/image_0058.jpg... 6.158392
-Tallying votes for test_set/lamp/image_0059.jpg... 6.158417
-Tallying votes for test_set/lamp/image_0060.jpg... 6.158441
-Tallying votes for test_set/lamp/image_0061.jpg... 6.158469
-Tallying votes for test_set/okapi/image_0001.jpg... 6.158494
-Tallying votes for test_set/okapi/image_0003.jpg... 6.158519
-Tallying votes for test_set/okapi/image_0004.jpg... 6.158542
-Tallying votes for test_set/okapi/image_0005.jpg... 6.158563
-Tallying votes for test_set/okapi/image_0009.jpg... 6.158586
-Tallying votes for test_set/okapi/image_0010.jpg... 6.158622
-Tallying votes for test_set/okapi/image_0015.jpg... 6.15865
-Tallying votes for test_set/okapi/image_0016.jpg... 6.158673
-Tallying votes for test_set/okapi/image_0017.jpg... 6.158695
-Tallying votes for test_set/okapi/image_0019.jpg... 6.158718
-Tallying votes for test_set/okapi/image_0020.jpg... 6.158741
-Tallying votes for test_set/okapi/image_0021.jpg... 6.158763
-Tallying votes for test_set/okapi/image_0022.jpg... 6.158786
-Tallying votes for test_set/okapi/image_0023.jpg... 6.158808
-Tallying votes for test_set/okapi/image_0026.jpg... 6.158831
-Tallying votes for test_set/okapi/image_0028.jpg... 6.158854
-Tallying votes for test_set/okapi/image_0029.jpg... 6.158877
-Tallying votes for test_set/okapi/image_0031.jpg... 6.1589
-Tallying votes for test_set/okapi/image_0033.jpg... 6.158924
-Tallying votes for test_set/okapi/image_0034.jpg... 6.158947
-Tallying votes for test_set/okapi/image_0036.jpg... 6.15897
-Tallying votes for test_set/okapi/image_0037.jpg... 6.158994
-Tallying votes for test_set/okapi/image_0038.jpg... 6.159018
-Tallying votes for test_set/okapi/image_0039.jpg... 6.159042
-Calculating accuracy... 6.159066
-Formatting output... 6.159113
-Generating confusion matrix... 6.161113
-Done. Results in ./results.txt. Confusion matrix in ./matrix.p. Class names in ./classes.p. Runtime: 6.161837
-Accuracy is 33.333%.
+Importing modules... 3e-06
+Moving into tinydata... 4.257242
+Accumulating results for barrel... 4.2574
+barrel-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+barrel-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+barrel-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+barrel-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+barrel-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+barrel-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+barrel-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+barrel-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+barrel-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+barrel-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+barrel-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+barrel-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+barrel-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+barrel-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+barrel-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+Counter({'barrel': 2, 'pagoda': 1})
+2
+['barrel']
+Counter({'barrel': 2, 'pagoda': 1})
+2
+['barrel']
+Counter({'barrel': 2, 'pagoda': 1})
+2
+['barrel']
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Accumulating results for pagoda... 4.258875
+pagoda-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+pagoda-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+pagoda-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+pagoda-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+pagoda-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+pagoda-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+pagoda-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+pagoda-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+pagoda-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+pagoda-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+pagoda-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+pagoda-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+pagoda-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+pagoda-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+pagoda-barrel-pagoda.predictions
+('barrel', 'pagoda')
+NEGATIVE pagoda
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Counter({'pagoda': 2, 'barrel': 1})
+2
+['pagoda']
+Accumulating results for yin_yang... 4.25994
+yin_yang-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+yin_yang-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+yin_yang-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+yin_yang-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+yin_yang-barrel-pagoda.predictions
+('barrel', 'pagoda')
+POSITIVE barrel
+yin_yang-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+yin_yang-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+yin_yang-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+yin_yang-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+yin_yang-barrel-yin_yang.predictions
+('barrel', 'yin_yang')
+POSITIVE barrel
+yin_yang-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+NEGATIVE yin_yang
+yin_yang-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+NEGATIVE yin_yang
+yin_yang-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+NEGATIVE yin_yang
+yin_yang-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+yin_yang-pagoda-yin_yang.predictions
+('pagoda', 'yin_yang')
+POSITIVE pagoda
+Counter({'barrel': 2, 'yin_yang': 1})
+2
+['barrel']
+Counter({'barrel': 2, 'yin_yang': 1})
+2
+['barrel']
+Counter({'barrel': 2, 'yin_yang': 1})
+2
+['barrel']
+Counter({'barrel': 2, 'pagoda': 1})
+2
+['barrel']
+Counter({'barrel': 2, 'pagoda': 1})
+2
+['barrel']
+[['test_set/barrel/image_0001.jpg', 'barrel', 'barrel'], ['test_set/barrel/image_0004.jpg', 'barrel', 'barrel'], ['test_set/barrel/image_0006.jpg', 'barrel', 'barrel'], ['test_set/barrel/image_0007.jpg', 'barrel', 'pagoda'], ['test_set/barrel/image_0008.jpg', 'barrel', 'pagoda'], ['test_set/pagoda/image_0002.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0003.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0008.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0009.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0010.jpg', 'pagoda', 'pagoda'], ['test_set/yin_yang/image_0002.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0006.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0007.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0008.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0010.jpg', 'yin_yang', 'barrel']]
+Calculating accuracy... 4.261517
+Formatting output... 4.261533
+Generating confusion matrix... 4.261951
+Done. Results in ./results.txt. Confusion matrix in ./matrix.p. Class names in ./classes.p. Runtime: 4.262493
+Accuracy is 53.333%.
+Overall time taken: 4.82411599159
