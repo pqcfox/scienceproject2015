@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
+logfile
 corpus
 tinycorpus
 data

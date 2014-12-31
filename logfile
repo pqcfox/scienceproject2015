@@ -1,192 +1,28 @@
 Importing modules... 3e-06
-Moving into tinydata... 4.257242
-Accumulating results for barrel... 4.2574
-barrel-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-barrel-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-barrel-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-barrel-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-barrel-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-barrel-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-barrel-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-barrel-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-barrel-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-barrel-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-barrel-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-barrel-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-barrel-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-barrel-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-barrel-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-Counter({'barrel': 2, 'pagoda': 1})
-2
-['barrel']
-Counter({'barrel': 2, 'pagoda': 1})
-2
-['barrel']
-Counter({'barrel': 2, 'pagoda': 1})
-2
-['barrel']
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Accumulating results for pagoda... 4.258875
-pagoda-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-pagoda-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-pagoda-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-pagoda-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-pagoda-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-pagoda-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-pagoda-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-pagoda-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-pagoda-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-pagoda-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-pagoda-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-pagoda-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-pagoda-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-pagoda-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-pagoda-barrel-pagoda.predictions
-('barrel', 'pagoda')
-NEGATIVE pagoda
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Counter({'pagoda': 2, 'barrel': 1})
-2
-['pagoda']
-Accumulating results for yin_yang... 4.25994
-yin_yang-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-yin_yang-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-yin_yang-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-yin_yang-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-yin_yang-barrel-pagoda.predictions
-('barrel', 'pagoda')
-POSITIVE barrel
-yin_yang-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-yin_yang-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-yin_yang-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-yin_yang-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-yin_yang-barrel-yin_yang.predictions
-('barrel', 'yin_yang')
-POSITIVE barrel
-yin_yang-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-NEGATIVE yin_yang
-yin_yang-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-NEGATIVE yin_yang
-yin_yang-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-NEGATIVE yin_yang
-yin_yang-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-yin_yang-pagoda-yin_yang.predictions
-('pagoda', 'yin_yang')
-POSITIVE pagoda
-Counter({'barrel': 2, 'yin_yang': 1})
-2
-['barrel']
-Counter({'barrel': 2, 'yin_yang': 1})
-2
-['barrel']
-Counter({'barrel': 2, 'yin_yang': 1})
-2
-['barrel']
-Counter({'barrel': 2, 'pagoda': 1})
-2
-['barrel']
-Counter({'barrel': 2, 'pagoda': 1})
-2
-['barrel']
-[['test_set/barrel/image_0001.jpg', 'barrel', 'barrel'], ['test_set/barrel/image_0004.jpg', 'barrel', 'barrel'], ['test_set/barrel/image_0006.jpg', 'barrel', 'barrel'], ['test_set/barrel/image_0007.jpg', 'barrel', 'pagoda'], ['test_set/barrel/image_0008.jpg', 'barrel', 'pagoda'], ['test_set/pagoda/image_0002.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0003.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0008.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0009.jpg', 'pagoda', 'pagoda'], ['test_set/pagoda/image_0010.jpg', 'pagoda', 'pagoda'], ['test_set/yin_yang/image_0002.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0006.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0007.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0008.jpg', 'yin_yang', 'barrel'], ['test_set/yin_yang/image_0010.jpg', 'yin_yang', 'barrel']]
-Calculating accuracy... 4.261517
-Formatting output... 4.261533
-Generating confusion matrix... 4.261951
-Done. Results in ./results.txt. Confusion matrix in ./matrix.p. Class names in ./classes.p. Runtime: 4.262493
-Accuracy is 53.333%.
-Overall time taken: 4.82411599159
+Moving into tinydata... 4.66938
+Creating new model... 4.669477
+Calculating C2 activations... 4.784738
+Computing activations...
+Computing activations...
+Training SVM using barrel-pagoda.train... 4.963068
+Training SVM using barrel-yin_yang.train... 4.965203
+Training SVM using pagoda-yin_yang.train... 4.968157
+Classifying images...
+Testing barrel using pagoda-yin_yang.svm... 4.970729
+Testing barrel using barrel-pagoda.svm... 4.972767
+Testing barrel using barrel-yin_yang.svm... 4.974939
+Testing pagoda using pagoda-yin_yang.svm... 4.977146
+Testing pagoda using barrel-pagoda.svm... 4.979337
+Testing pagoda using barrel-yin_yang.svm... 4.981397
+Testing yin_yang using pagoda-yin_yang.svm... 4.982465
+Testing yin_yang using barrel-pagoda.svm... 4.983504
+Testing yin_yang using barrel-yin_yang.svm... 4.984569
+Accumulating results for barrel... 4.985894
+Accumulating results for pagoda... 4.987652
+Accumulating results for yin_yang... 4.988683
+Calculating accuracy... 4.989533
+Formatting output... 4.989563
+Generating confusion matrix... 4.99004
+Done. Results in ./results.txt. Confusion matrix in ./matrix.p. Class names in ./classes.p. Runtime: 4.990645
+Accuracy is 86.667%.
+Overall time taken: 9.20714092255

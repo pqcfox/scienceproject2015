@@ -2,6 +2,7 @@ import sys
 import time
 start = time.clock()
 start_realtime = time.time()
+
 print "Importing modules... {0}".format(time.clock() - start)
 
 sys.path.append('scripts/glimpse_scripts')
@@ -19,10 +20,10 @@ import re
 import shutil
 import string
 
-corpus = "tinycorpus"
+corpus = "corpus"
 test_set = "test_set"
 train_set = "train_set"
-data_folder = "tinydata"
+data_folder = "data"
 classes = sorted([ os.path.join(corpus, f) for f in os.listdir(corpus) if os.path.isdir(os.path.join(corpus, f)) ])
 
 # Move into a work folder to minimize clutter and latency in main folder (i.e. for `ls`)
@@ -30,7 +31,7 @@ classes = sorted([ os.path.join(corpus, f) for f in os.listdir(corpus) if os.pat
 print "Moving into {0}... {1}".format(data_folder, time.clock() - start)
 
 os.chdir(data_folder)
-'''
+
 # Use create_model.py to create an HMAX model from the training set 
 
 print "Creating new model... {0}".format(time.clock() - start)
@@ -100,7 +101,7 @@ for c in [ os.path.basename(k) for k in classes ]:
         pred = '{0}-{1}.predictions'.format(c, pairname) 
         print "Testing {0} using {1}... {2}".format(c, svm, time.clock() - start)
         os.system('/stash/mm-group/svm_light/svm_classify -v 0 {0} {1} {2}'.format(test, svm, pred))
-'''
+
 # Accumulate predictions into a list.
 
 preds = [ f for f in os.listdir('.') if '.predictions' in f ]
@@ -119,50 +120,19 @@ for c in [ os.path.basename(k) for k in classes ]:
         for line in range(len(class_pred_lines)):
             value = float(class_pred_lines[line])
             pred_classes = re.findall(r'.*-(.*)-(.*)\.predictions', pred)[0]
-            print pred
-            print pred_classes
             if value > 0:
                 pred_class = pred_classes[0]
-                print "POSITIVE {0}".format(pred_classes[0])
             else:
                 pred_class = pred_classes[1]
-                print "NEGATIVE {0}".format(pred_classes[1])
                 
             predictions[line].update([pred_class])
 
     for n in range(len(predictions)):
         counter = predictions[n]
-        print counter
         highest_freq = counter.most_common(1)[0][1]
-        print highest_freq
         highest_classes = [ el for el in list(counter) if counter[el] == highest_freq ] 
-        print highest_classes
         chosen_class = random.choice(list(set(highest_classes)))
         results.append([class_images_lines[n], c, chosen_class])
-
-print results
-
-#all_images = sorted(list(set([ v[0] for v in votes ])))
-#results = []
-
-# Count up final votes from each svm output.
-
-'''
-class_by_image = [ None for _  in all_images ]
-votes_by_image = [ [] for _  in all_images ]
-for v in votes:
-    print "Analyzing vote for {0}... {1}".format(v[0], time.clock() - start)
-    votes_by_image[all_images.index(v[0])].append(v[2]) 
-    class_by_image[all_images.index(v[0])] = v[1]
-
-for image in all_images:
-    print "Tallying votes for {0}... {1}".format(image, time.clock() - start)
-    image_class = class_by_image[all_images.index(image)]
-    image_votes = votes_by_image[all_images.index(image)]
-    image_counts = [ image_votes.count(k) for k in image_votes ]
-    image_predicted = random.choice(list(set([v for v in image_votes if image_counts[image_votes.index(v)] == max(image_counts) ])))
-    results.append([image, image_class, image_predicted])
-'''
 
 # Calculate overall accuracy.
 
