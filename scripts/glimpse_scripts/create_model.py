@@ -7,7 +7,7 @@ from glimpse.models import MakeParams, MakeModel
 import numpy as np
 import pickle
 
-def create_model(training_corpus, num_protos, prototype_source = "imprint", params = None, suppress_gui = False):
+def create_model(training_corpus, num_protos, prototype_source = "uniform", params = None, suppress_gui = False):
     """ set up a blank experiment from a new corpus and return the model containing S2 Kernels.
 
     :param training_corpus: relative or absolute path to corpus directory
@@ -37,10 +37,15 @@ def create_model(training_corpus, num_protos, prototype_source = "imprint", para
     exp.extractor.training_set = np.ones(len(exp.corpus.labels), dtype=bool)
     """Since we're just collecting imprints here, we mark the whole set as training."""
 
-    exp.extractor.model = MakeModel() 
+    #exp.extractor.model = MakeModel() 
+    
+    experiment.SetModel(exp, params=params)
     """creates a blank model object. """
 
-    experiment.MakePrototypes(exp, num_protos, "imprint")
+    print params
+    print experiment.GetParams(exp)
+
+    experiment.MakePrototypes(exp, num_protos, "uniform")
     """creates prototypes (S2 Kernels) from imprints, and stores them in the model object attached to the experiment"""
 
     return exp.extractor.model
